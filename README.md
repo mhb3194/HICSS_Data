@@ -42,26 +42,57 @@
 
 #### Query
 
-![](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_2_new.png)
+![determinant_extraction_query](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_2_new.png)
+
 
 #### Answer
 
-![](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_3_new.png)
+![determinant_extraction_answer](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_3_new.png)
+
+### Goal Measurement
+
+![goal_measurement](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_measurement_1.png)
+
+### Goal Targets given by user
+
+![goal_targets](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_targets.png)
+
+### Intervention Plan Generation
+
+#### Query
+
+![intervention_query](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Plan_generation_1.png)
+
+#### Answer
+
+![intervention_ans](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Plan_generation_2.png)
+![intervention_ans2](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Plan_generation_3.png)
+![intervention_ans3](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/plan_generation_4.png)
+
+### Intervention Execution
+
+#### Query
+
+![intervention_exq1](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/interventions_1.png)
+![intervention_exq2](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/interventions_2.png)
 
 
+#### Answer
+
+![intervention_exa](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/intervention_3.png)
 
 
-![]()
-![]()
-![]()
-![]()
+### Goal Assesment
+![](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_assesment_1.png)
+
+###
+![](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_assesment_2.png)
 ![]()
 ![]()
 ![]() 
 
 
 
-(https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/user_profile_1.png "User Profile Data")
 
 
 ( "")
