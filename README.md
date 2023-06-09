@@ -83,10 +83,17 @@
 
 
 ### Goal Assesment
+
+#### Query
+
 ![](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_assesment_1.png)
 
-###
+### Answer
+
 ![](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_assesment_2.png)
+
+
+
 ![]()
 ![]()
 ![]() 
