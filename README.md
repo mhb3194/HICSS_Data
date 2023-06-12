@@ -14,7 +14,19 @@ The following section provides an explanation of each type of requests performed
 
 ## LLM Requests
 
+
 ### Generate Assesment Questionnaire
+
+#### Objective:
+Our aim is to construct a comprehensive questionnaire designed to populate the various datasets as articulated in the Data Model, which includes Users, Health Profile, User Goal, Goal Observations, and Behaviour Determinants. To do this, we need to extract the necessary information from the user.
+
+#### Context:
+This pertains to entries within the dataset where there are missing fields that require information. If a reference dataset is needed to locate this missing information, this should also be considered.
+
+#### Output Format:
+The questionnaires generated will be diverse in nature, their design being guided by the context and the ultimate objective.
+
+#### Structure of the Request:
 
 ### Request for Recommendation / Classification
 
