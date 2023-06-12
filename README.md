@@ -48,7 +48,17 @@ Output Format:
 
 
 #### Application Scenarios
-    
+ 
+Asking questionnaire for obtaining:
+
++ Initial missing information in Users Dataset
++ Initial missing information in Health_Profile Dataset
++ Initial missing information in User_Goal dataset
++ Add information in User_Goal dataset
++ Add information in Goal_Observations dataset
++ Add information in Behaviour_determinants dataset based on User_Goal dataset
+
+#### Examples
     
 
 
@@ -67,7 +77,7 @@ Output Format:
 
 
 
-
+<!---
 # Example 1
 
 
@@ -189,4 +199,6 @@ User Selects below goal:
 ( "")
 ( "")
 ( "")
+
+--->
 
