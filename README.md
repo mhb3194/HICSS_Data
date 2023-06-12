@@ -101,10 +101,43 @@ Output Format:
 
 #### Examples
 
-
-
-
 ### Process User Input
+
+#### Objective:
+When user gives any texttual response to a query, 
+#### Context:
+The context encapsulates the dataset entries which must be analyzed in order to generate the requisite text information.
+
+#### Output Format:
+The output format is variable, adapting to the type of information requested. This may take the form of structured text, tables, or specific class names.
+
+#### Structure of the LLM Query:
+
+```
+Context:
+
+	\<dataset1>
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	\<dataset2>
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+Task:
+       
+       \<instruction for chatbot role>\<instruction for context>\<instruction for generating required text information>
+
+Output Format:
+
+       \<instruction for output>   
+```
+
+
+#### Application Scenarios
+
++ Identifying two best possible goals and their one liner description after updating Users and Health_Profile datasets \[*[Context]: Users dataset, Health_Profile dataset ; [Output Format]: table*\]
++ After user selects a goal, identifying three best measures of that goal based on goal name and goal description. \[*Context: User_Goal dataset ; [Output Format]: colon separated structured text*\]
++ Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on Users, Health_Profile, User_Goal, Goal_Observations datasets information \[*Context: Users dataset, Health_Profile dataset, User_Goal dataset, Goal_Observations dataset ; [Output Format]: class name*\]
+
+#### Examples
+
 
 ### Plan Generation
 
