@@ -31,9 +31,9 @@ The questionnaires generated will be diverse in nature, their design being guide
 ```
 Context:
 
-	\<database1>
+	\<dataset1>
 		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
-	\<database2>
+	\<dataset2>
 		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
   
 Task:
@@ -57,12 +57,52 @@ Asking questionnaire for obtaining:
 + Add information in User_Goal dataset
 + Add information in Goal_Observations dataset
 + Add information in Behaviour_determinants dataset based on User_Goal dataset
++ User goal assesment
 
 #### Examples
     
 
 
 ### Request for Recommendation / Classification
+
+#### Objective:
+We endeavor to build an intelligent information analyzer and generator with the intent of delivering recommendations or classifying provided data into predefined categories. This system operates by accepting contextual information as an input and generating fitting text output in line with the assigned task.
+
+#### Context:
+The context encapsulates the dataset entries which must be analyzed in order to generate the requisite text information.
+
+#### Output Format:
+The output format is variable, adapting to the type of information requested. This may take the form of structured text, tables, or specific class names.
+
+#### Structure of the LLM Query:
+
+```
+Context:
+
+	\<dataset1>
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	\<dataset2>
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+Task:
+       
+       \<instruction for chatbot role>\<instruction for context>\<instruction for generating required text information>
+
+Output Format:
+
+       \<instruction for output>   
+```
+
+
+#### Application Scenarios
+
++ Identifying two best possible goals and their one liner description after updating Users and Health_Profile datasets \[*[Context]: Users dataset, Health_Profile dataset ; [Output Format]: table*\]
++ After user selects a goal, identifying three best measures of that goal based on goal name and goal description. \[*Context: User_Goal dataset ; [Output Format]: colon separated structured text*\]
++ Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on Users, Health_Profile, User_Goal, Goal_Observations datasets information \[*Context: Users dataset, Health_Profile dataset, User_Goal dataset, Goal_Observations dataset ; [Output Format]: class name*\]
+
+#### Examples
+
+
+
 
 ### Process User Input
 
