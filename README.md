@@ -26,7 +26,31 @@ This pertains to entries within the dataset where there are missing fields that 
 #### Output Format:
 The questionnaires generated will be diverse in nature, their design being guided by the context and the ultimate objective.
 
-#### Structure of the Request:
+#### Structure of the LLM Query:
+
+```
+Context:
+
+	\<database1>
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	\<database2>
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+  
+Task:
+
+   \<instruction for chatbot role>\<instruction for context>\<instruction for questionnaire generation>
+
+Output Format:
+
+   \<instruction for output>
+   
+```
+
+
+#### Application Scenarios
+    
+    
+
 
 ### Request for Recommendation / Classification
 
