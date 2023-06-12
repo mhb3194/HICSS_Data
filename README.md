@@ -1,3 +1,37 @@
+# ASA-HBC
+
+
+
+
+## General Instruction
+
+Each request consists of three components: context, tasks, and output format. The context provides relevant information for the given task, which is then instructed to the Language Model (LLM) for execution. The output format is determined based on the context information and task, ensuring the appropriate presentation of results in structured text, tables, or plain text. Each task has its unique format, and the context provides different information, such as database details or user input, according to specific requirements.
+
+
+The following section provides an explanation of each type of requests performed by the Language Model (LLM) and highlights their respective utilization within the behavior change support system.
+
+
+
+## LLM Requests
+
+### Generate Assesment Questionnaire
+
+### Request for Recommendation / Classification
+
+### Process User Input
+
+### Plan Generation
+
+### Reminder and Nudge Generation
+
+### Improve Plan Based on Feedback
+
+
+
+
+
+
+
 # Example 1
 
 
