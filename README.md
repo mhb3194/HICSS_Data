@@ -96,33 +96,37 @@ Output Format:
 #### Application Scenarios
 
 + Identifying two best possible goals and their one liner description after updating Users and Health_Profile datasets \[*[Context]: Users dataset, Health_Profile dataset ; [Output Format]: table*\]
-+ After user selects a goal, identifying three best measures of that goal based on goal name and goal description. \[*Context: User_Goal dataset ; [Output Format]: colon separated structured text*\]
-+ Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on Users, Health_Profile, User_Goal, Goal_Observations datasets information \[*Context: Users dataset, Health_Profile dataset, User_Goal dataset, Goal_Observations dataset ; [Output Format]: class name*\]
++ After user selects a goal, identifying three best measures of that goal based on goal name and goal description. \[*[Context]: User_Goal dataset ; [Output Format]: colon separated structured text*\]
++ Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on Users, Health_Profile, User_Goal, Goal_Observations datasets information \[*[Context]: Users dataset, Health_Profile dataset, User_Goal dataset, Goal_Observations dataset ; [Output Format]: class name*\]
 
 #### Examples
 
-### Process User Input
-
 #### Objective:
-When user gives any texttual response to a query, 
+
+The aim of this task is to process and convert the responses received from users, as part of the questionnaire, into a desired dataset format. If a response is textual, it must be appropriately summarized and formatted. This Language Model (LLM) task involves the analysis of user responses and structures them into the required dataset format, ultimately outputting the completed dataset in the required format.
+
 #### Context:
-The context encapsulates the dataset entries which must be analyzed in order to generate the requisite text information.
+
+The context revolves around the dataset format, which includes the value options for each field, as well as the user output that is provided in a dataset format which needs to be populated into the intended dataset.
 
 #### Output Format:
-The output format is variable, adapting to the type of information requested. This may take the form of structured text, tables, or specific class names.
+
+The output will be a table that displays the completed dataset.
+
 
 #### Structure of the LLM Query:
 
 ```
 Context:
 
-	\<dataset1>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
-	\<dataset2>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	\<current query database>
+		\<field_name1(field_format1)>: \<existing_field_value1>; \<field_name2(field_format2)>: \<existing_field_value2>;........ \<field_name3(existing_field_format3)>: \<field_value2>
+	\<response from user>
+		response_field_format1 ; response_field format2 ; ...... response_field format3
+		
 Task:
        
-       \<instruction for chatbot role>\<instruction for context>\<instruction for generating required text information>
+       \<instruction for chatbot role>\<description of context>\<instruction for structuring answers of user response for query dataset>\<datasetwise field related instructions>
 
 Output Format:
 
@@ -131,15 +135,20 @@ Output Format:
 
 
 #### Application Scenarios
-
-+ Identifying two best possible goals and their one liner description after updating Users and Health_Profile datasets \[*[Context]: Users dataset, Health_Profile dataset ; [Output Format]: table*\]
-+ After user selects a goal, identifying three best measures of that goal based on goal name and goal description. \[*Context: User_Goal dataset ; [Output Format]: colon separated structured text*\]
-+ Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on Users, Health_Profile, User_Goal, Goal_Observations datasets information \[*Context: Users dataset, Health_Profile dataset, User_Goal dataset, Goal_Observations dataset ; [Output Format]: class name*\]
+Based on answers of the questionnaires
++ Filling Behaviour_Determinants dataset for a particular goal  \[*[Context]: Behaviour_Determinants dataset, User_Response ; [Output Format]: table*\]
++ Filling Health_Profile dataset  \[*[Context]: Health_Profile dataset ; [Output Format]: table*\]
++ Filling User_Goal dataset \[*[Context]: User_Goal dataset ; [Output Format]: table*\]
++ Filling Goal_Observations dataset \[*[Context]: Goal_Observations dataset ; [Output Format]: table*\]
++ Filling Users dataset \[*[Context]: Users dataset ; [Output Format]: table*\]
 
 #### Examples
 
 
 ### Plan Generation
+
+
+
 
 ### Reminder and Nudge Generation
 
