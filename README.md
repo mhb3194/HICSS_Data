@@ -79,17 +79,17 @@ The output format is variable, adapting to the type of information requested. Th
 ```
 Context:
 
-	\<dataset1>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
-	\<dataset2>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	<dataset1>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	<dataset2>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 Task:
        
-       \<instruction for chatbot role>\<instruction for context>\<instruction for generating required text information>
+       <instruction for chatbot role><instruction for context><instruction for generating required text information>
 
 Output Format:
 
-       \<instruction for output>   
+       <instruction for output>   
 ```
 
 
@@ -121,18 +121,18 @@ The output will be a table that displays the completed dataset.
 ```
 Context:
 
-	\<current query database>
-		\<field_name1(field_format1)>: \<existing_field_value1>; \<field_name2(field_format2)>: \<existing_field_value2>;........ \<field_name3(existing_field_format3)>: \<field_value2>
-	\<response from user>
+	<current query database>
+		<field_name1(field_format1)>: <existing_field_value1>; <field_name2(field_format2)>: <existing_field_value2>;........ <field_name3(existing_field_format3)>: <field_value2>
+	<response from user>
 		response_field_format1 ; response_field format2 ; ...... response_field format3
 		
 Task:
        
-       \<instruction for chatbot role>\<description of context>\<instruction for structuring answers of user response for query dataset>\<datasetwise field related instructions>
+       <instruction for chatbot role><description of context><instruction for structuring answers of user response for query dataset><datasetwise field related instructions>
 
 Output Format:
 
-       \<instruction for output>   
+       <instruction for output>   
 ```
 
 
@@ -208,23 +208,23 @@ The output is presented as a colon-separated list, comprising of the Entry_Id an
 Context:
 
 	Users:
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 	Health Profile:
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 	Behaviour Determinants:
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 	Plan Entry:
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 		
 Task:
        
-       \<instruction for chatbot role>\<description of context>\<instruction for creating form of intervention>
+       <instruction for chatbot role><description of context><instruction for creating form of intervention>
 
 Output Format:
 
-       \<instruction for output> 
+       <instruction for output> 
        
 ```
 
@@ -250,39 +250,39 @@ Context:
 
 
 	behaviour change plan:
-		\<attribute_name1> ; \<attribute_name2> ;.... \<attribute_namen> 
-		\<row1_value1> ; \<row1_value2> ; ... \<row1_valuen>
-		\<row2_value1> ; \<row2_value2> ; ... \<row2_valuen>
+		<attribute_name1> ; <attribute_name2> ;.... <attribute_namen> 
+		<row1_value1> ; <row1_value2> ; ... <row1_valuen>
+		<row2_value1> ; <row2_value2> ; ... <row2_valuen>
 		.
 		.
 		.
-		\<rown_value1> ; \<rown_value2> ; ... \<rown_valuen>
+		<rown_value1> ; <rown_value2> ; ... <rown_valuen>
 		
-	\<feedback type> :
-		\<feedback>
+	<feedback type> :
+		<feedback>
 	
 	Users:
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 	Health Profile:
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 	Behaviour Determinants:
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 	Plan Entry:
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 	User Goal:
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 	Goal Obervations:
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
 		
 Task:
        
-       \<instruction for chatbot role>\<description of context>\<description of feedback type>\<instruction for generating new plan based on feedback type>
+       <instruction for chatbot role><description of context><description of feedback type><instruction for generating new plan based on feedback type>
 
 Output Format:
 
-       \<instruction for output>
+       <instruction for output>
        
 ```
 
