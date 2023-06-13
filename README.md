@@ -31,18 +31,18 @@ The questionnaires generated will be diverse in nature, their design being guide
 ```
 Context:
 
-	\<dataset1>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
-	\<dataset2>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	<dataset1>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	<dataset2>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
   
 Task:
 
-   \<instruction for chatbot role>\<instruction for context>\<instruction for questionnaire generation>
+   <instruction for chatbot role><instruction for context><instruction for questionnaire generation>
 
 Output Format:
 
-   \<instruction for output>
+   <instruction for output>
    
 ```
 
