@@ -174,10 +174,11 @@ Based on answers of the questionnaires
 
 #### Examples
 
-![]()
-![]()
-![]()
-![]() 
+##### Behaviour_Determinants dataset
+
+![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task3_behaviour_determinants_1.png)
+![task3_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task3_behaviour_determinants_2.png)
+
 
 ### Plan Generation
 
@@ -222,6 +223,19 @@ Output Format:
 #### Application Scenarios
 + initial plan generation based on initial dataset values
 
+#### Example
+
+##### Query:
+
+![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_1.png)
+![task4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_2.png) 
+
+##### Response:
+![task4_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_3.png)
+![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_4.png) 
+![task4_5](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_5.png)
+
+
 
 ### Reminder and Nudge Generation
 
@@ -263,6 +277,18 @@ Output Format:
 
 #### Application Scenarios
 + Executing text generation intervention plans based on plan_entry as per requirement
+
+
+#### Example
+
+##### Query:
+![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task5_1.png) 
+![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task5_2.png)
+
+##### Answer:
+![task5_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task5_3.png) 
+
+
 
 
 ### Improve Plan Based on Feedback
@@ -328,6 +354,31 @@ Output Format:
 
 #### Examples
 
+##### User feedback
+
+**Example1**
+
+![task6_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_1.png) 
+![task6_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_2.png)
+![task6_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_3.png) 
+
+
+![task6_s1_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_4.png) 
+
+**Example2**
+
+![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s2_1.png)
+![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s2_2.png) 
+
+##### Behaviour Scientist Feedback
+
+![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s3_1.png) 
+![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s3_2.png)
+
+##### Goal Assesment Feedback
+
+![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s4_1.png) 
+![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s4_2.png) 
 
 
 <!---
