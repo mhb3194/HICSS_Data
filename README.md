@@ -60,8 +60,20 @@ Asking questionnaire for obtaining:
 + User goal assesment
 
 #### Examples
-    
 
+##### User Dataset:
+![task1_user_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_user_1.png)  
+
+##### Health_Profile Dataset:
+![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_health_profile_1.png) 
+
+##### Goal and Goal_Observations Dataset:
+![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_goal_1.png)
+![task1_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_goal_2.png)
+
+##### Behaviour_determinants Dataset:
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_behaviour_determinants_1.png)
+![task1_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_behaviour_determinants_2.png) 
 
 ### Request for Recommendation / Classification
 
@@ -95,11 +107,27 @@ Output Format:
 
 #### Application Scenarios
 
-+ Identifying two best possible goals and their one liner description after updating Users and Health_Profile datasets (*[Context]: Users dataset, Health_Profile dataset ; [Output Format]: table*)
-+ After user selects a goal, identifying three best measures of that goal based on goal name and goal description. (*[Context]: User_Goal dataset ; [Output Format]: colon separated structured text*)
-+ Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants datasets information (*[Context]: Users dataset, Health_Profile dataset, User_Goal dataset, Goal_Observations dataset, Behaviour_Determinants dataset ; [Output Format]: class name*)
++ **Behaviour Goal Identification** : Identifying two best possible goals and their one liner description after updating Users and Health_Profile datasets (*[Context]: Users dataset, Health_Profile dataset ; [Output Format]: table*)
++ **Goal Measures Identification** : After user selects a goal, identifying three best measures of that goal based on goal name and goal description. (*[Context]: User_Goal dataset ; [Output Format]: colon separated structured text*)
++ **Stage of Change Identification** : Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants datasets information (*[Context]: Users dataset, Health_Profile dataset, User_Goal dataset, Goal_Observations dataset, Behaviour_Determinants dataset ; [Output Format]: class name*)
 
 #### Examples
+
+##### Behaviour Goal Identification
+
+![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_health_goal_identification_1.png)
+ 
+
+##### Goal Measures Identification
+![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_goal_measure_1.png)
+
+
+##### Stage of Change Identification
+![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_change_stage_1.png)
+![task2_change_stage_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_change_stage_2.png)
+
+
+
 
 ### Process User Input
 
@@ -146,6 +174,10 @@ Based on answers of the questionnaires
 
 #### Examples
 
+![]()
+![]()
+![]()
+![]() 
 
 ### Plan Generation
 
@@ -333,7 +365,7 @@ Below is the profile information provided by user and was structured by LLM to s
 
 User Selects below goal:
 
-*Weight Management and Physical Activity: "Adopt a balanced diet and increase physical activity to manage BMI and enhance overall health."*
+*Weight Management and Physicaltask1_behaviour_determinants_1 Activity: "Adopt a balanced diet and increase physical activity to manage BMI and enhance overall health."*
 
 ### Behaviour determinants questionnaire
 
