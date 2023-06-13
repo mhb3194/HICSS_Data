@@ -151,57 +151,150 @@ Based on answers of the questionnaires
 
 
 #### Objective:
-Once all relevant datasets, namely Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants, are comprehensively populated, the next step involves creating a behavioral change plan to facilitate the achievement of set goals. For our purposes, we are adopting a standard timeline of one week for generating this behavioral change plan. The plan generation commences with the identification of appropriate behavioral change techniques, leveraging the CALO-RE Taxonomy for this purpose. There are three primary tasks assigned to the LLM in this plan generation phase. The first task is the selection of the three most suitable behavioral change techniques from the 40 identified in the CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf), this selection is primarily based on the individual's stage of behavioral change. This approach is taken in light of the emphasis placed on tailoring behavioral change techniques according to the stage of behavioral change in [this paper] (https://www.researchgate.net/publication/349007558_Tailoring_Persuasive_and_Behaviour_Change_Systems_Based_on_Stages_of_Change_and_Motivation). The second task involves generating a week-long behavioral change plan, structured around the identified techniques, and segmented into morning, afternoon, and evening periods. The final task involves formulating a generalized daily rule for each selected behavioral change technique. This rule will serve two main purposes: 1) prompt the user to log their performance, and 2) motivate the user to engage in behavioral change activities. In second and third task, form of im
+Once all relevant datasets, namely Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants, are comprehensively populated, the next step involves creating a behavioral change plan to facilitate the achievement of set goals. For our purposes, we are adopting a standard timeline of one week for generating this behavioral change plan. The plan generation commences with the identification of appropriate behavioral change techniques(BCT), leveraging the CALO-RE Taxonomy for this purpose. There are three primary tasks assigned to the LLM in this plan generation phase. The first task is the selection of the three most suitable behavioral change techniques from the 40 identified in the CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf), this selection is primarily based on the individual's stage of behavioral change. This approach is taken in light of the emphasis placed on tailoring behavioral change techniques according to the stage of behavioral change in [this paper] (https://www.researchgate.net/publication/349007558_Tailoring_Persuasive_and_Behaviour_Change_Systems_Based_on_Stages_of_Change_and_Motivation). The second task involves generating a week-long behavioral change plan, structured around the identified techniques, and segmented into morning, afternoon, and evening periods based on context information to make the plan personalised. The final task involves formulating a generalized daily rule for each selected behavioral change technique. This rule will serve two main purposes: 1) prompt the user to log their performance, and 2) motivate the user to engage in behavioral change activities. In second and third task, form of implementation of intervention is also provided which can be nudge, reminder, awareness message or questionnare. 
+Once these plan is generated, its each entry is done in this Plan_Entry database. Also, entire plan is stored in the Plans dataset. Also, selected BCT are stored in plans dataset.  
 
 #### Context:
-The context involves the analysis of dataset entries pertaining to the user. These entries, drawn from the datasets Users, Health_Profile, User_Goal, Goal_Observations, and Behaviour_Determinants, will be used to generate the necessary text information.
+The context involves the dataset entries pertaining to the user. These entries, drawn from the datasets Users, Health_Profile, User_Goal, Goal_Observations, and Behaviour_Determinants, will be used to generate the necessary text information.
 
 #### Output Format:
 The output for each task is structured in a tabular format, with predefined column names and layout.
 
-#### Objective:
-After we have all the information in all the datasets like Users, Health_Profile, Uer_Goal, Goal_Observations, Behaviour_Determinants dataset, we need to generate behaviour change plan for the goal achievement. here, we have kept one week as standard time for generating this behaviour change plan. To generate plan, first, behaviour change technique is needed to be identified. For this purpose [CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf) is utilized. we give three tasks to LLM in plan generation. First task is to identify most appropriate three behaviour change techniques from 40 techniques identified in  [CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf) based on stage of change of behaviour of an individual. This is done because [this paper] (https://www.researchgate.net/publication/349007558_Tailoring_Persuasive_and_Behaviour_Change_Systems_Based_on_Stages_of_Change_and_Motivation) emphaseses on tailoring behaviour change techniques based on behaviour stage of change. Second Task is to generate behaviour change plan for a week ,based on these identified techniques, divided into morning, afternoon and evening.   
-Third task is to identify generalised daily rule for each selected behaviour change technique that can be used to 1) tell user to log their performance 2) encourage user to do behaviour change activity.
-
-#### Context:
-The context encapsulates the dataset entries of the user which must be analyzed in order to generate the requisite text information from the datasets Users, Health_Profile, Uer_Goal, Goal_Observations, Behaviour_Determinants.
-
-#### Output Format:
-The output format is idengitied for each task as table with column names and format. 
 
 #### Structure of the LLM Query:
 
 ```
 Context:
 
-	\<dataset1>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
-	\<dataset2>
-		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	Users:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	Health Profile:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	Behaviour Determinants:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	User Goal:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	Goal Obervations:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		
 Task:
        
-       \<instruction for chatbot role>\<instruction for context>\<instruction for generating required text information>
+       <instruction for chatbot role><description of context><task1 instruction for identifying CALO-RE techniques><task2 instruction for designing weekly plan><task3 instruction for generalized BCT plan>
 
 Output Format:
 
-       \<instruction for output>   
+       <instruction for output>  
+```
+
+
+#### Application Scenarios
++ initial plan generation based on initial dataset values
+
+
+### Reminder and Nudge Generation
+
+
+#### Objective:
+Once the plan is formulated and each component of the plan is recorded in the Plan_Entry dataset, it becomes necessary to generate specific intervention text at the corresponding execution time of each plan entry. This is dependent on the activity the user is expected to perform, the behavior change technique applied, and the form of intervention. To this end, Plan Entries, identified by their Entry_Id, along with other relevant user information are provided to the LLM as context. The LLM will then generate suitable intervention text associated with each Entry_Id.
+
+#### Context:
+The context encompasses dataset entries related to the user. The relevant information, drawn from the datasets Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants and Plan_Entry, will be analyzed to generate the necessary intervention text.
+
+#### Output Format:
+The output is presented as a colon-separated list, comprising of the Entry_Id and the corresponding generated text intervention.
+
+#### Structure of the LLM Query:
+```
+Context:
+
+	Users:
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	Health Profile:
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	Behaviour Determinants:
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	Plan Entry:
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		
+Task:
+       
+       \<instruction for chatbot role>\<description of context>\<instruction for creating form of intervention>
+
+Output Format:
+
+       \<instruction for output> 
+       
+```
+
+
+#### Application Scenarios
++ Executing text generation intervention plans based on plan_entry as per requirement
+
+
+### Improve Plan Based on Feedback
+
+#### Objective:
+Throughout different stages of the behavior change support system, the generated plan may need to be modified based on various forms of feedback. This could be user feedback, gathered while the plan is being implemented throughout the week; feedback from behavior scientists for approval once the plan is generated; or goal assessment feedback, obtained at the end of each week. For this purpose, the existing plan is provided so that a new, modified plan can be generated based on the feedback received. Additionally, user-specific information from different databases is incorporated into the input, enabling the LLM to analyze it and generate a personalized plan based on the feedback. Plan_Entry dataset and Plans dataset is also modified based on new plan.
+
+#### Context:
+The context encompasses user-related information sourced from the datasets Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants. Additionally, the current plan and feedback text are also included in the context.
+
+#### Output Format:
+The output is formatted as a table, mirroring the structure of the current plan.
+
+#### Structure of the LLM Query:
+```
+Context:
+
+
+	behaviour change plan:
+		\<attribute_name1> ; \<attribute_name2> ;.... \<attribute_namen> 
+		\<row1_value1> ; \<row1_value2> ; ... \<row1_valuen>
+		\<row2_value1> ; \<row2_value2> ; ... \<row2_valuen>
+		.
+		.
+		.
+		\<rown_value1> ; \<rown_value2> ; ... \<rown_valuen>
+		
+	\<feedback type> :
+		\<feedback>
+	
+	Users:
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	Health Profile:
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	Behaviour Determinants:
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	Plan Entry:
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	User Goal:
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+	Goal Obervations:
+		\<field_name1> : \<value1> ;\<field_name2> : \<value2>;...... \<field_namen> : \<valuen>
+		
+Task:
+       
+       \<instruction for chatbot role>\<description of context>\<description of feedback type>\<instruction for generating new plan based on feedback type>
+
+Output Format:
+
+       \<instruction for output>
+       
 ```
 
 
 #### Application Scenarios
 
-+ Identifying two best possible goals and their one liner description after updating Users and Health_Profile datasets (*[Context]: Users dataset, Health_Profile dataset ; [Output Format]: table*)
-+ After user selects a goal, identifying three best measures of that goal based on goal name and goal description. (*[Context]: User_Goal dataset ; [Output Format]: colon separated structured text*)
-+ Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on Users, Health_Profile, User_Goal, Goal_Observations datasets information (*[Context]: Users dataset, Health_Profile dataset, User_Goal dataset, Goal_Observations dataset ; [Output Format]: class name*)
+ Modifying existing plan based on
+ + User feedback
+ + Behaviour Scientist Feedback
+ + Goal Assesment Feedback
 
-
-
-### Reminder and Nudge Generation
-
-### Improve Plan Based on Feedback
-
-
-
+#### Examples
 
 
 
