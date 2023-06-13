@@ -367,18 +367,18 @@ Output Format:
 
 **Example2**
 
-![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s2_1.png)
-![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s2_2.png) 
+![task6_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s2_1.png)
+![task6_s2_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s2_2.png) 
 
 ##### Behaviour Scientist Feedback
 
-![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s3_1.png) 
-![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s3_2.png)
+![task6_s3_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s3_1.png) 
+![task6_s3_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s3_2.png)
 
 ##### Goal Assesment Feedback
 
-![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s4_1.png) 
-![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s4_2.png) 
+![task6_s4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s4_1.png) 
+![task6_s4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s4_2.png) 
 
 
 
@@ -389,10 +389,10 @@ Output Format:
 
 One modification has been made to the previously mentioned health profile in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are unable to walk. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. Additionally, the behavior change technique has been adjusted from graded task to social support, taking into account the person's condition.
 
-![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_1.png)
-![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_2.png)
-![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_3.png)
-![](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_4.png)
+![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_1.png)
+![task4_s2_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_2.png)
+![task4_s2_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_3.png)
+![task4_s2_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_4.png)
 
 #### Customization based on state of change
 
