@@ -150,17 +150,24 @@ Based on answers of the questionnaires
 ### Plan Generation
 
 
+#### Objective:
+Once all relevant datasets, namely Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants, are comprehensively populated, the next step involves creating a behavioral change plan to facilitate the achievement of set goals. For our purposes, we are adopting a standard timeline of one week for generating this behavioral change plan. The plan generation commences with the identification of appropriate behavioral change techniques, leveraging the CALO-RE Taxonomy for this purpose. There are three primary tasks assigned to the LLM in this plan generation phase. The first task is the selection of the three most suitable behavioral change techniques from the 40 identified in the CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf), this selection is primarily based on the individual's stage of behavioral change. This approach is taken in light of the emphasis placed on tailoring behavioral change techniques according to the stage of behavioral change in [this paper] (https://www.researchgate.net/publication/349007558_Tailoring_Persuasive_and_Behaviour_Change_Systems_Based_on_Stages_of_Change_and_Motivation). The second task involves generating a week-long behavioral change plan, structured around the identified techniques, and segmented into morning, afternoon, and evening periods. The final task involves formulating a generalized daily rule for each selected behavioral change technique. This rule will serve two main purposes: 1) prompt the user to log their performance, and 2) motivate the user to engage in behavioral change activities. In second and third task, form of im
 
+#### Context:
+The context involves the analysis of dataset entries pertaining to the user. These entries, drawn from the datasets Users, Health_Profile, User_Goal, Goal_Observations, and Behaviour_Determinants, will be used to generate the necessary text information.
+
+#### Output Format:
+The output for each task is structured in a tabular format, with predefined column names and layout.
 
 #### Objective:
 After we have all the information in all the datasets like Users, Health_Profile, Uer_Goal, Goal_Observations, Behaviour_Determinants dataset, we need to generate behaviour change plan for the goal achievement. here, we have kept one week as standard time for generating this behaviour change plan. To generate plan, first, behaviour change technique is needed to be identified. For this purpose [CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf) is utilized. we give three tasks to LLM in plan generation. First task is to identify most appropriate three behaviour change techniques from 40 techniques identified in  [CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf) based on stage of change of behaviour of an individual. This is done because [this paper] (https://www.researchgate.net/publication/349007558_Tailoring_Persuasive_and_Behaviour_Change_Systems_Based_on_Stages_of_Change_and_Motivation) emphaseses on tailoring behaviour change techniques based on behaviour stage of change. Second Task is to generate behaviour change plan for a week ,based on these identified techniques, divided into morning, afternoon and evening.   
-
+Third task is to identify generalised daily rule for each selected behaviour change technique that can be used to 1) tell user to log their performance 2) encourage user to do behaviour change activity.
 
 #### Context:
-The context encapsulates the dataset entries which must be analyzed in order to generate the requisite text information.
+The context encapsulates the dataset entries of the user which must be analyzed in order to generate the requisite text information from the datasets Users, Health_Profile, Uer_Goal, Goal_Observations, Behaviour_Determinants.
 
 #### Output Format:
-The output format is variable, adapting to the type of information requested. This may take the form of structured text, tables, or specific class names.
+The output format is idengitied for each task as table with column names and format. 
 
 #### Structure of the LLM Query:
 
