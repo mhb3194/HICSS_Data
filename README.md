@@ -97,7 +97,7 @@ Output Format:
 
 + Identifying two best possible goals and their one liner description after updating Users and Health_Profile datasets (*[Context]: Users dataset, Health_Profile dataset ; [Output Format]: table*)
 + After user selects a goal, identifying three best measures of that goal based on goal name and goal description. (*[Context]: User_Goal dataset ; [Output Format]: colon separated structured text*)
-+ Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on Users, Health_Profile, User_Goal, Goal_Observations datasets information (*[Context]: Users dataset, Health_Profile dataset, User_Goal dataset, Goal_Observations dataset, Behaviour_Determinants dataset ; [Output Format]: class name*)
++ Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants datasets information (*[Context]: Users dataset, Health_Profile dataset, User_Goal dataset, Goal_Observations dataset, Behaviour_Determinants dataset ; [Output Format]: class name*)
 
 #### Examples
 
@@ -153,7 +153,9 @@ Based on answers of the questionnaires
 
 
 #### Objective:
-After we have all the information in all the datasets like Users, Health_Profile, Uer_Goal, Goal_Observations, Behaviour_Determinants dataset, we need to generate behaviour change plan for the goal achievement. here, we have kept one week as standard time for generating this behaviour change plan. To generate plan, first, behaviour change technique is needed to be identified. FOr this purpose ![CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf) is utilized.
+After we have all the information in all the datasets like Users, Health_Profile, Uer_Goal, Goal_Observations, Behaviour_Determinants dataset, we need to generate behaviour change plan for the goal achievement. here, we have kept one week as standard time for generating this behaviour change plan. To generate plan, first, behaviour change technique is needed to be identified. For this purpose [CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf) is utilized. we give three tasks to LLM in plan generation. First task is to identify most appropriate three behaviour change techniques from 40 techniques identified in  [CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf) based on stage of change of behaviour of an individual. This is done because [this paper] (https://www.researchgate.net/publication/349007558_Tailoring_Persuasive_and_Behaviour_Change_Systems_Based_on_Stages_of_Change_and_Motivation) emphaseses on tailoring behaviour change techniques based on behaviour stage of change. Second Task is to generate behaviour change plan for a week ,based on these identified techniques, divided into morning, afternoon and evening.   
+
+
 #### Context:
 The context encapsulates the dataset entries which must be analyzed in order to generate the requisite text information.
 
