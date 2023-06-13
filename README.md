@@ -60,7 +60,7 @@ Asking questionnaire for obtaining:
 + User goal assesment
 
 #### Examples
- 
+  
 ##### User Dataset:
 ![task1_user_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_user_1.png)  
 
