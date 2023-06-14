@@ -14,7 +14,369 @@ The following section provides an explanation of each type of requests performed
 
 ## LLM Requests
 
+### Generate Assesment Questionnaire
 
+#### Objective:
+Our aim is to construct a comprehensive questionnaire designed to populate the various datasets as articulated in the Data Model, which includes Users, Health Profile, User Goal, Goal Observations, and Behaviour Determinants. To do this, we need to extract the necessary information from the user.
+
+#### Context:
+This pertains to entries within the dataset where there are missing fields that require information. If a reference dataset is needed to locate this missing information, this should also be considered.
+
+#### Output Format:
+The questionnaires generated will be diverse in nature, their design being guided by the context and the ultimate objective.
+
+#### Structure of the LLM Query:
+
+```
+Context:
+
+	<dataset1> :
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	<dataset2> :
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+  
+Task:
+
+  	<chatbot role><context instruction for {prompt_id} > <main instruction for {prompt_id}>
+
+Output Format:
+
+ 	<output format for {prompt_id}>
+   
+```
+
+
+#### Application Scenarios
+ 
+Asking questionnaire for obtaining:
+
++ Initial missing information in User_Profiles Dataset
++ Initial missing information in Goals dataset
++ information for User_Change_Determinants dataset based on Goals dataset
++ User goal assesment
+
+#### Examples
+
+
+##### User_Profiles Dataset:
+![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_profile_1.png) 
+
+##### Goal and Goal_Observations Dataset:
+![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_goal_1.png)
+
+##### Behaviour_determinants Dataset:
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_behaviour_determinants_1.png)
+![task1_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_behaviour_determinants_2.png)
+![task1_behaviour_determinants_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_behaviour_determinants_3.png)
+
+### Request for Recommendation / Classification
+
+#### Objective:
+We endeavor to build an intelligent information analyzer and generator with the intent of delivering recommendations or classifying provided data into predefined categories. This system operates by accepting contextual information as an input and generating fitting text output in line with the assigned task.
+
+#### Context:
+The context encapsulates the dataset entries which must be analyzed in order to generate the requisite text information.
+
+#### Output Format:
+The output format is variable, adapting to the type of information requested. This may take the form of structured text, tables, or specific class names.
+
+#### Structure of the LLM Query:
+
+```
+Context:
+
+	<dataset1>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	<dataset2>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+Task:
+
+   	<chatbot role><context instruction for {prompt_id} > <main instruction for {prompt_id}>
+
+Output Format:
+
+   	<output format for {prompt_id}>  
+```
+
+
+#### Application Scenarios
+
++ **Behaviour Goal Identification** : Identifying three best possible goals after updating  User_Profiles dataset (*[Context]: User_Profiles dataset ; [Output Format]: list of names*)
++ **Goal Measures Identification** : After user selects a goal, identifying three best measures of that goal based on goal name and goal description. (*[Context]: Goals dataset ; [Output Format]: colon separated structured text*)
++ **Stage of Change Identification** : Identifying current value of user's  behaviour determinant Stage of Change (precontemplation/contemplation/preperation/action/maintainance) based on User_Profiles, User_Goal, Goal_Observations, User_Change_Determinants datasets information (*[Context]: User_Profiles, User_Goal, Goal_Observations, User_Change_Determinants datasets ; [Output Format]: class name*)
+
+#### Examples
+
+##### Behaviour Goal Identification
+
+![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task2_goal_1.png)
+ 
+
+##### Goal Measures Identification
+![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task2_goal_measures_1.png)
+
+
+##### Stage of Change Identification
+![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task2_state_of_change_1.png)
+
+
+
+
+### Process User Input
+
+#### Objective:
+
+The aim of this task is to process and convert the responses received from users, as part of the questionnaire, into a desired dataset format. If a response is textual, it must be appropriately summarized and formatted. This Language Model (LLM) task involves the analysis of user responses and structures them into the required dataset format, ultimately outputting the completed dataset in the required format.
+
+#### Context:
+
+The context revolves around the dataset format, which includes the value options for each field, as well as the user output that is provided in a dataset format which needs to be populated into the intended dataset.
+
+#### Output Format:
+
+The output will be a table that displays the completed dataset.
+
+
+#### Structure of the LLM Query:
+
+```
+Context:
+
+	<current query database>
+		<field_name1(field_format1)>: <existing_field_value1>; <field_name2(field_format2)>: <existing_field_value2>;........ <field_name3(existing_field_format3)>: <field_value2>
+	<response from user>
+		response_field_format1 ; response_field format2 ; ...... response_field format3
+		
+Task:
+
+   	<chatbot role><context instruction for {prompt_id} > <main instruction for {prompt_id}>
+
+Output Format:
+
+   	<output format for {prompt_id}>
+```
+
+
+#### Application Scenarios
+Based on answers of the questionnaires
++ Filling Behaviour_Determinants dataset for a particular goal  (*[Context]: Behaviour_Determinants dataset, User_Response ; [Output Format]: colon separated list*)
++ Filling Health_Profile dataset (*[Context]: Health_Profile dataset ; [Output Format]: colon separated list*)
++ Filling User_Goal dataset (*[Context]: User_Goal dataset ; [Output Format]: colon separated list*)
++ Filling Goal_Observations dataset (*[Context]: Goal_Observations dataset ; [Output Format]: colon separated list*)
++ Filling Users dataset (*[Context]: Users dataset ; [Output Format]: colon separated list*)
+
+#### Examples
+
+##### Behaviour_Determinants dataset
+
+![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task3_behaviour_determinants_1.png)
+
+
+### Plan Generation
+
+
+#### Objective:
+Once all relevant datasets, namely Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants, are comprehensively populated, the next step involves creating a behavioral change plan to facilitate the achievement of set goals. For our purposes, we are adopting a standard timeline of one week for generating this behavioral change plan. The plan generation commences with the identification of appropriate behavioral change techniques(BCT), leveraging the CALO-RE Taxonomy for this purpose. There are three primary tasks assigned to the LLM in this plan generation phase. The first task is the selection of the three most suitable behavioral change techniques from the 40 identified in the CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf), this selection is primarily based on the individual's stage of behavioral change. This approach is taken in light of the emphasis placed on tailoring behavioral change techniques according to the stage of behavioral change in [this paper] (https://www.researchgate.net/publication/349007558_Tailoring_Persuasive_and_Behaviour_Change_Systems_Based_on_Stages_of_Change_and_Motivation). The second task involves generating a week-long behavioral change plan, structured around the identified techniques, and segmented into morning, afternoon, and evening periods based on context information to make the plan personalised. The final task involves formulating a generalized daily rule for each selected behavioral change technique. This rule will serve two main purposes: 1) prompt the user to log their performance, and 2) motivate the user to engage in behavioral change activities. In second and third task, form of implementation of intervention is also provided which can be nudge, reminder, awareness message or questionnare. 
+Once these plan is generated, its each entry is done in this Plan_Entry database. Also, entire plan is stored in the Plans dataset. Also, selected BCT are stored in plans dataset.  
+
+#### Context:
+The context involves the dataset entries pertaining to the user. These entries, drawn from the datasets Users, Health_Profile, User_Goal, Goal_Observations, and Behaviour_Determinants, will be used to generate the necessary text information.
+
+#### Output Format:
+The output for each task is structured in a tabular format, with predefined column names and layout.
+
+
+#### Structure of the LLM Query:
+
+```
+Context:
+
+	User_Profiles:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	User_Change_Determinants:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	Goals:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	Goal_Obervations:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		
+Task:
+       
+       <chatbot role><context instruction for {prompt_id} ><task1 instruction for identifying CALO-RE techniques><task2 instruction for designing weekly plan><task3 instruction for generalized BCT plan>
+
+Output Format:
+
+       <output format for {prompt_id}>  
+```
+
+
+#### Application Scenarios
++ initial plan generation based on initial dataset values
+
+#### Example
+
+##### Query:
+
+![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_1.png)
+![task4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_2.png) 
+
+##### Response:
+![task4_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_3.png)
+![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_4.png) 
+![task4_5](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_5.png)
+
+
+
+### Reminder and Nudge Generation
+
+
+#### Objective:
+Once the plan is formulated and each component of the plan is recorded in the Plan_Entry dataset, it becomes necessary to generate specific intervention text at the corresponding execution time of each plan entry. This is dependent on the activity the user is expected to perform, the behavior change technique applied, and the form of intervention. To this end, Plan Entries, identified by their Entry_Id, along with other relevant user information are provided to the LLM as context. The LLM will then generate suitable intervention text associated with each Entry_Id.
+
+#### Context:
+The context encompasses dataset entries related to the user. The relevant information, drawn from the datasets Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants and Plan_Entry, will be analyzed to generate the necessary intervention text.
+
+#### Output Format:
+The output is presented as a colon-separated list, comprising of the Entry_Id and the corresponding generated text intervention.
+
+#### Structure of the LLM Query:
+```
+Context:
+
+	User_Profiles:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	User_Change_Determinants:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	Plan_Entry:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		
+Task:
+       
+       <chatbot role><context instruction for {prompt_id} > <main instruction for {prompt_id}>
+
+Output Format:
+
+       <output format for {prompt_id}>  
+       
+```
+
+
+#### Application Scenarios
++ Executing text generation intervention plans based on plan_entry as per requirement
+
+
+#### Example
+
+##### Query:
+![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task5_1.png) 
+
+##### Answer:
+![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task5_2.png) 
+
+
+
+
+### Improve Plan Based on Feedback
+
+#### Objective:
+Throughout different stages of the behavior change support system, the generated plan may need to be modified based on various forms of feedback. This could be user feedback, gathered while the plan is being implemented throughout the week; feedback from behavior scientists for approval once the plan is generated; or goal assessment feedback, obtained at the end of each week. For this purpose, the existing plan is provided so that a new, modified plan can be generated based on the feedback received. Additionally, user-specific information from different databases is incorporated into the input, enabling the LLM to analyze it and generate a personalized plan based on the feedback. Plan_Entry dataset and Plans dataset is also modified based on new plan.
+
+#### Context:
+The context encompasses user-related information sourced from the datasets Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants. Additionally, the current plan and feedback text are also included in the context.
+
+#### Output Format:
+The output is formatted as a table, mirroring the structure of the current plan.
+
+#### Structure of the LLM Query:
+```
+Context:
+
+
+	Behaviour_Change_Plan:
+		<attribute_name1> ; <attribute_name2> ;.... <attribute_namen> 
+		<row1_value1> ; <row1_value2> ; ... <row1_valuen>
+		<row2_value1> ; <row2_value2> ; ... <row2_valuen>
+		.
+		.
+		.
+		<rown_value1> ; <rown_value2> ; ... <rown_valuen>
+		
+	<feedback type> :
+		<feedback>
+	
+	User_Profiles:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	User_Change_Determinants:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>	
+	Goals:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	Goal_Obervations:
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		
+Task:
+       
+       <chatbot role><context instruction for {prompt_id} > <main instruction for {prompt_id}>
+
+Output Format:
+
+       <output format for {prompt_id}>  
+       
+```
+
+
+#### Application Scenarios
+
+ Modifying existing plan based on
+ + User feedback
+ + Behaviour Scientist Feedback
+ + Goal Assesment Feedback
+
+#### Examples
+
+##### User feedback
+
+**Example1**
+
+![task6_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_1.png) 
+![task6_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_2.png)
+![task6_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_3.png) 
+
+
+
+##### Behaviour Scientist Feedback
+
+![task6_s3_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s1_1.png) 
+![task6_s3_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s1_2.png)
+
+##### Goal Assesment Feedback
+
+![task6_s4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s2_1.png) 
+![task6_s4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s2_2.png) 
+
+
+
+
+### Examples showing customization
+
+#### Customization based on health condition written in the Health_Profile
+
+One modification has been made to the previously mentioned health profile in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are unable to walk. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. Additionally, the behavior change technique has been adjusted from graded task to social support, taking into account the person's condition.
+
+![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_1.png)
+![task4_s2_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_2.png)
+![task4_s2_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_3.png)
+![task4_s2_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_4.png)
+
+#### Customization based on state of change
+
+
+
+
+
+
+<!---
 ### Generate Assesment Questionnaire
 
 #### Objective:
@@ -397,7 +759,7 @@ One modification has been made to the previously mentioned health profile in thi
 #### Customization based on state of change
 
 
-<!---
+
 # Example 1
 
 
