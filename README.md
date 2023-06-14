@@ -58,7 +58,7 @@ Asking questionnaire for obtaining:
 #### Examples
 
 
-##### User_Profiles Dataset:
+##### [User_Profiles Dataset](https://chat.openai.com/share/99201566-ae1d-4655-bfa3-09d2ef93050f):
 ![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_profile_1.png) 
 
 ##### Goal and Goal_Observations Dataset:
