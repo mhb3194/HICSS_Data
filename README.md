@@ -11,6 +11,34 @@ Each request consists of three components: context, tasks, and output format. Th
 The following section provides an explanation of each type of requests performed by the Language Model (LLM) and highlights their respective utilization within the behavior change support system.
 
 
+A very general format:
+
+```
+Context:
+	<dataset1> :
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+	<dataset2> :
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>
+		.
+		.
+		.
+	<datasetn> :
+		<field_name1> : <value1> ;<field_name2> : <value2>;...... <field_namen> : <valuen>		
+	<external_input1> :
+		<input_in_desired_format>
+	<external_input2> :
+		<input_in_desired_format>
+Task:
+  	<chatbot role><context instruction for {prompt_id} > <main instruction for {prompt_id}>
+Output Format:
+ 	<output format for {prompt_id}>
+   
+```
+
+
+
+
+
 
 ## LLM Requests
 
