@@ -61,10 +61,10 @@ Asking questionnaire for obtaining:
 ##### [User_Profiles Dataset](https://chat.openai.com/share/99201566-ae1d-4655-bfa3-09d2ef93050f):
 ![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_profile_1.png) 
 
-##### Goal and Goal_Observations Dataset:
+##### [Goal and Goal_Observations Dataset](https://chat.openai.com/share/c584cbc2-69bd-405c-9323-adf63fda8f2d):
 ![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_goal_1.png)
 
-##### Behaviour_determinants Dataset:
+##### [Behaviour_determinants Dataset](https://chat.openai.com/share/390d4950-15cc-405d-a8e4-d59db286145b):
 ![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_behaviour_determinants_1.png)
 ![task1_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_behaviour_determinants_2.png)
 ![task1_behaviour_determinants_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_behaviour_determinants_3.png)
@@ -107,16 +107,16 @@ Output Format:
 
 #### Examples
 
-##### Behaviour Goal Identification
+##### [Behaviour Goal Identification](https://chat.openai.com/share/9b5b5fad-3f01-4f91-b162-3c334aac7171)
 
 ![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task2_goal_1.png)
  
 
-##### Goal Measures Identification
+##### [Goal Measures Identification](https://chat.openai.com/share/bfb60b02-cd60-4205-8172-9629ac8ac988)
 ![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task2_goal_measures_1.png)
 
 
-##### Stage of Change Identification
+##### [Stage of Change Identification](https://chat.openai.com/share/bceaf974-da0b-434e-8512-7003d04e30cb)
 ![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task2_state_of_change_1.png)
 
 
@@ -167,7 +167,7 @@ Based on answers of the questionnaires
 
 #### Examples
 
-##### Behaviour_Determinants dataset
+##### [Behaviour_Determinants dataset](https://chat.openai.com/share/f01d7f70-5a77-48a4-a617-c2eec1b9620a)
 
 ![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task3_behaviour_determinants_1.png)
 
@@ -213,7 +213,7 @@ Output Format:
 #### Application Scenarios
 + initial plan generation based on initial dataset values
 
-#### Example
+#### [Example](https://chat.openai.com/share/b9f27286-d7bb-456c-b7f8-34ce7371fbb0)
 
 ##### Query:
 
@@ -267,7 +267,7 @@ Output Format:
 + Executing text generation intervention plans based on plan_entry as per requirement
 
 
-#### Example
+#### [Example](https://chat.openai.com/share/461da128-e19c-4378-bbb4-66deaac12675)
 
 ##### Query:
 ![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task5_1.png) 
@@ -337,7 +337,7 @@ Output Format:
 
 ##### User feedback
 
-**Example1**
+[**Example1**](https://chat.openai.com/share/87e787c3-fc71-4a65-8098-a4300bc6412a)
 
 ![task6_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_1.png) 
 ![task6_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_2.png)
@@ -345,12 +345,12 @@ Output Format:
 
 
 
-##### Behaviour Scientist Feedback
+##### [Behaviour Scientist Feedback](https://chat.openai.com/share/bec3567f-951d-44da-af8c-9d064b32d9a0)
 
 ![task6_s3_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s1_1.png) 
 ![task6_s3_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s1_2.png)
 
-##### Goal Assesment Feedback
+##### [Goal Assesment Feedback](https://chat.openai.com/share/80e16794-de04-48a8-b07b-6e07dd5e3590)
 
 ![task6_s4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s2_1.png) 
 ![task6_s4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s2_2.png) 
@@ -360,7 +360,7 @@ Output Format:
 
 ### Examples showing customization
 
-#### Customization based on health condition written in the Health_Profile
+#### [Customization based on health condition written in the Health_Profile](https://chat.openai.com/share/d1c3e28f-5f40-4e8e-862c-f0930d19f263)
 
 One modification has been made to the previously mentioned health profile in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are unable to walk. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. Additionally, the behavior change technique has been adjusted from graded task to social support, taking into account the person's condition.
 
