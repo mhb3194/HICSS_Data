@@ -364,10 +364,11 @@ Output Format:
 
 One modification has been made to the previously mentioned health profile in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are unable to walk. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. Additionally, the behavior change technique has been adjusted from graded task to social support, taking into account the person's condition.
 
-![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_1.png)
-![task4_s2_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_2.png)
-![task4_s2_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_3.png)
-![task4_s2_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_4.png)
+![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_s1_1.png)
+![task4_s2_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_s1_2.png)
+![task4_s2_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_s1_3.png)
+![task4_s2_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_s1_4.png)
+![task4_s2_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_s1_5.png)
 
 #### Customization based on state of change
 
