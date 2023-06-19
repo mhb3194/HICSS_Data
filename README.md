@@ -419,40 +419,40 @@ Output Format:
 
 ###### Persona 1:
 
-*User Feedback: This plan is very regorous for me. suggest a bit easy plan.*
+***User Feedback**: This plan is very regorous for me. suggest a bit easy plan.*
 
 ![task6_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_1.png)
 ![task6_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_2.png)
 ![task6_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_3.png)
 
 
-*Behaviour_Scientist_Feedback: Plan is not increamental. gradually increase difficulty.*  
+***Behaviour_Scientist_Feedback**: Plan is not increamental. gradually increase difficulty.*  
 
 ![task6_s11](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_1.png)
 ![task6_s12](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_2.png)
 ![task6_s13](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_3.png)
 
-*System_Generated_Feedback: user is not able to follow eating healthy plan. they are not able to even walk for 10 minutes a day.*  
+***System_Generated_Feedback**: user is not able to follow eating healthy plan. they are not able to even walk for 10 minutes a day.*  
 
 ![task6_s21](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s2_1.png)
 ![task6_s22](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s2_2.png)
 
 ###### Persona 2:
 
-*User_Feedback: I can not have social gatherings more than once in a week.* 
+***User_Feedback**: I can not have social gatherings more than once in a week.* 
 
 ![task6_s31](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_1.png)
 ![task6_s32](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_2.png)
 ![task6_s33](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_3.png)
 
-*Behaviour_Scientist_Feedback: some specificity required in exercises for deep breathing or knee exercise.*	
-*User_Feedback:I can not have social gatherings more than once in a week.*
+***Behaviour_Scientist_Feedback**: some specificity required in exercises for deep breathing or knee exercise.*	
+***User_Feedback**:I can not have social gatherings more than once in a week.*
 
 ![task6_s41](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_1.png)
 ![task6_s42](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_2.png)
 ![task6_s43](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_3.png)
 
-*System_Generated_Feedback: User is able to follow meditation plan and breathing exercises. however yoga classes are not attended by user. Also uder could not follow calling friends and spendint time with family tasks.*
+***System_Generated_Feedback**: User is able to follow meditation plan and breathing exercises. however yoga classes are not attended by user. Also uder could not follow calling friends and spendint time with family tasks.*
 
 ![task6_s51](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_1.png)
 ![task6_s52](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_2.png)
@@ -464,7 +464,7 @@ Output Format:
 
 #### [Customization in Behaviour Change Plan](https://chat.openai.com/share/e729af43-6e5d-4924-97b0-073c0284d976)
 
-One modification has been made to the previously mentioned health profile of persona 1 in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are handicap. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. Additionally, the behavior change technique has been adjusted from graded task to social support, taking into account the person's condition.
+One modification has been made to the previously mentioned health profile of persona 1 in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are handicap. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. 
 
 ![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_1.png)
 ![task4_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_2.png)
