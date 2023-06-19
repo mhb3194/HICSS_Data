@@ -36,8 +36,10 @@ Output Format:
 ```
 
 
+We have two example profiles of working of the system. The examples of both personas for each task is given below.  
+Persona 1 is of 30 years old female with "Achieving Healthy Weight" Goal and persona 2 is of 55 years old male with "Stress Management" Goal.
 
-
+For All the queries, <chatbot role> is: *"you are a part of health behaviour change support system."*
 
 
 ## LLM Requests
@@ -45,13 +47,13 @@ Output Format:
 ### Generate Assesment Questionnaire
 
 #### Objective:
-Our aim is to construct a comprehensive questionnaire designed to populate the various datasets as articulated in the Data Model, which includes Users, Health Profile, User Goal, Goal Observations, and Behaviour Determinants. To do this, we need to extract the necessary information from the user.
+Here the aim is to construct a comprehensive questionnaire designed to populate the various datasets as articulated in the Data Model, which includes Users, Health Profile, User Goal, Goal Observations, and Behaviour Determinants. 
 
 #### Context:
 This pertains to entries within the dataset where there are missing fields that require information. If a reference dataset is needed to locate this missing information, this should also be considered.
 
 #### Output Format:
-The questionnaires generated will be diverse in nature, their design being guided by the context and the ultimate objective.
+The questionnaires generated will be diverse in nature, their design being guided by the context and the ultimate objective. 
 
 #### Structure of the LLM Query:
 
@@ -78,29 +80,50 @@ Output Format:
  
 Asking questionnaire for obtaining:
 
-+ Initial missing information in User_Profiles Dataset
-+ Initial missing information in Goals dataset
-+ information for User_Change_Determinants dataset based on Goals dataset
++ Initial missing information in User_Profiles Dataset (*[Context]: User_Profiles dataset ; [Output Format]: list of questionnaire* )
++ Initial missing information in Goals dataset (*[Context]: Goals dataset ; [Output Format]: list of questionnaire* )
++ Initial missing information in Goal_Observations dataset (*[Context]: Goal_Observations dataset ; [Output Format]: list of questionnaire* )
++ information for User_Change_Determinants dataset based on Goals dataset (*[Context]: Goals dataset, User_change_behaviour dataset ; [Output Format]: multiple choice questionnaire questionnaire* )
 + User goal assesment
 
-#### Examples
+#### Examples 
 
 
-##### [User_Profiles Dataset](https://chat.openai.com/share/99201566-ae1d-4655-bfa3-09d2ef93050f):
-![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_profile_1.png) 
+##### [User_Profiles Dataset](https://chat.openai.com/share/cb706526-1871-442e-9846-ce75e224a626):
 
-##### [Goal and Goal_Observations Dataset](https://chat.openai.com/share/c584cbc2-69bd-405c-9323-adf63fda8f2d):
-![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_goal_1.png)
+**Persona 1:**
+![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_user_profile_1.png) 
 
-##### [Behaviour_determinants Dataset](https://chat.openai.com/share/390d4950-15cc-405d-a8e4-d59db286145b):
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_behaviour_determinants_1.png)
-![task1_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_behaviour_determinants_2.png)
-![task1_behaviour_determinants_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task1_behaviour_determinants_3.png)
+**Persona 2:**
+![task1_health_profile_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_user_profile_1_p2.png)
+
+##### [Goal and Goal_Observations Dataset](https://chat.openai.com/share/e43b4628-c33c-4386-a849-504181656695):
+
+**Persona 1:**
+![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_goal_1.png)
+
+
+**Persona 2:**
+![task1_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_goal_1_p2.png)
+
+
+
+##### [Behaviour_determinants Dataset](https://chat.openai.com/share/ba9b7344-a53d-4fff-9121-2a61e8e879f8):
+
+**Persona 1:**
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_1.png)
+![task1_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_2.png)
+![task1_behaviour_determinants_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_3.png)
+
+**Persona 2:**
+![task1_behaviour_determinants_p1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_1_p2.png)
+![task1_behaviour_determinants_p2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_2_p2.png)
+![task1_behaviour_determinants_p3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_3_p2.png)
 
 ### Request for Recommendation / Classification
 
 #### Objective:
-We endeavor to build an intelligent information analyzer and generator with the intent of delivering recommendations or classifying provided data into predefined categories. This system operates by accepting contextual information as an input and generating fitting text output in line with the assigned task.
+In this task we build an intelligent information analyzer and generator with the intent of delivering recommendations or classifying provided data into predefined categories. This system operates by accepting contextual information as an input and generating fitting text output in line with the assigned task.
 
 #### Context:
 The context encapsulates the dataset entries which must be analyzed in order to generate the requisite text information.
@@ -135,17 +158,32 @@ Output Format:
 
 #### Examples
 
-##### [Behaviour Goal Identification](https://chat.openai.com/share/9b5b5fad-3f01-4f91-b162-3c334aac7171)
+##### [Behaviour Goal Identification](https://chat.openai.com/share/e43b4628-c33c-4386-a849-504181656695)
+**Persona 1:**
+![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_goal_1.png)
 
-![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task2_goal_1.png)
+**Persona 2:**
+![task2_health_goal_identification_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_goal_1_p2.png)
  
 
-##### [Goal Measures Identification](https://chat.openai.com/share/bfb60b02-cd60-4205-8172-9629ac8ac988)
-![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task2_goal_measures_1.png)
+##### [Goal Measures Identification](https://chat.openai.com/share/95c62959-aa09-4aba-b48c-275c12a94f92)
+
+**Persona 1:**
+![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_goal_measure_1.png)
+
+**Persona 2:**
+![task2_goal_measure_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_goal_measure_1_p2.png)
 
 
-##### [Stage of Change Identification](https://chat.openai.com/share/bceaf974-da0b-434e-8512-7003d04e30cb)
-![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task2_state_of_change_1.png)
+
+##### [Stage of Change Identification](https://chat.openai.com/share/4300e44f-24e1-4cfb-98f4-02bc8b2fff70)
+
+**Persona 1:**
+![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_stagechange_1.png)
+
+**Persona 2:**
+![task2_change_stage_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_stagechange_1_p2.png)
+
 
 
 
@@ -195,9 +233,17 @@ Based on answers of the questionnaires
 
 #### Examples
 
-##### [Behaviour_Determinants dataset](https://chat.openai.com/share/f01d7f70-5a77-48a4-a617-c2eec1b9620a)
+##### [Behaviour_Determinants dataset](https://chat.openai.com/share/0e721d92-e6e5-49b5-94b0-d8db18cb9060)
 
-![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task3_behaviour_determinants_1.png)
+**Persona 1:**
+![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1.png)
+![task3_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_2.png)
+
+
+
+**Persona 2:**
+![task3_behaviour_determinants_p1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1_p2.png)
+![task3_behaviour_determinants_p2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1_p2.png)
 
 
 ### Plan Generation
@@ -241,19 +287,24 @@ Output Format:
 #### Application Scenarios
 + initial plan generation based on initial dataset values
 
-#### [Example](https://chat.openai.com/share/b9f27286-d7bb-456c-b7f8-34ce7371fbb0)
+#### [Example](https://chat.openai.com/share/eaf0b536-2733-4476-8d3d-2f3af6a7046b)
 
-##### Query:
+**Persona 1:**
 
-![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_1.png)
-![task4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_2.png) 
-
-##### Response:
-![task4_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_3.png)
-![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_4.png) 
-![task4_5](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_5.png)
+![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_1.png)
+![task4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_2.png) 
+![task4_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_3.png)
+![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_4.png) 
+![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_5.png) 
 
 
+**Persona 2:**
+
+![task4_1p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_1_p2.png)
+![task4_2p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_2_p2.png) 
+![task4_3p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_3_p2.png)
+![task4_4p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_4_p2.png) 
+![task4_5p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_5_p2.png) 
 
 ### Reminder and Nudge Generation
 
@@ -295,13 +346,15 @@ Output Format:
 + Executing text generation intervention plans based on plan_entry as per requirement
 
 
-#### [Example](https://chat.openai.com/share/461da128-e19c-4378-bbb4-66deaac12675)
+#### [Example](https://chat.openai.com/share/3753d795-8967-49ef-a7d9-42b5181c375a)
 
-##### Query:
-![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task5_1.png) 
+**Persona 1:**
+![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_1.png)
+![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_2.png)
 
-##### Answer:
-![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task5_2.png) 
+**Persona 2:**
+![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_1_p2.png)
+![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_2_p2.png)
 
 
 
@@ -361,45 +414,77 @@ Output Format:
  + Behaviour Scientist Feedback
  + Goal Assesment Feedback
 
-#### Examples
+#### [Examples](https://chat.openai.com/share/5b9a4947-9844-43c2-8738-8d4bc315f18a)
 
-##### User feedback
+**Persona 1:**
 
-[**Example1**](https://chat.openai.com/share/87e787c3-fc71-4a65-8098-a4300bc6412a)
+*User Feedback: This plan is very regorous for me. suggest a bit easy plan.*
 
-![task6_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_1.png) 
-![task6_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_2.png)
-![task6_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_3.png) 
+![task6_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_1.png)
+![task6_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_2.png)
+![task6_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_3.png)
 
 
+*Behaviour_Scientist_Feedback: Plan is not increamental. gradually increase difficulty.*  
 
-##### [Behaviour Scientist Feedback](https://chat.openai.com/share/bec3567f-951d-44da-af8c-9d064b32d9a0)
+![task6_s11](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_1.png)
+![task6_s12](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_2.png)
+![task6_s13](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_3.png)
 
-![task6_s3_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s1_1.png) 
-![task6_s3_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s1_2.png)
+*System_Generated_Feedback: user is not able to follow eating healthy plan. they are not able to even walk for 10 minutes a day.*  
 
-##### [Goal Assesment Feedback](https://chat.openai.com/share/80e16794-de04-48a8-b07b-6e07dd5e3590)
+![task6_s21](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s2_1.png)
+![task6_s22](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s2_2.png)
 
-![task6_s4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s2_1.png) 
-![task6_s4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task6_s2_2.png) 
+**Persona 2:**
 
+*User_Feedback: I can not have social gatherings more than once in a week.* 
+
+![task6_s31](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_1.png)
+![task6_s32](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_2.png)
+![task6_s33](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_3.png)
+
+*Behaviour_Scientist_Feedback: some specificity required in exercises for deep breathing or knee exercise.*	
+*User_Feedback:I can not have social gatherings more than once in a week.*
+
+![task6_s41](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_1.png)
+![task6_s42](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_2.png)
+![task6_s43](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_3.png)
+
+*System_Generated_Feedback: User is able to follow meditation plan and breathing exercises. however yoga classes are not attended by user. Also uder could not follow calling friends and spendint time with family tasks.*
+
+![task6_s51](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_1.png)
+![task6_s52](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_2.png)
+![task6_s53](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_3.png)
 
 
 
 ### Examples showing customization
 
-#### [Customization based on health condition written in the Health_Profile](https://chat.openai.com/share/d1c3e28f-5f40-4e8e-862c-f0930d19f263)
+#### [Customization in Behaviour Change Plan](https://chat.openai.com/share/e729af43-6e5d-4924-97b0-073c0284d976)
 
-One modification has been made to the previously mentioned health profile in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are unable to walk. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. Additionally, the behavior change technique has been adjusted from graded task to social support, taking into account the person's condition.
+One modification has been made to the previously mentioned health profile in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are handicap. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. Additionally, the behavior change technique has been adjusted from graded task to social support, taking into account the person's condition.
 
-![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_s1_1.png)
-![task4_s2_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_s1_2.png)
-![task4_s2_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_s1_3.png)
-![task4_s2_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_s1_4.png)
-![task4_s2_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v1/task4_s1_5.png)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_1.png)
+![task4_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_2.png)
+![task4_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_3.png)
+![task4_s1_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_4.png)
 
-#### Customization based on state of change
+#### [Customization in Stage of Change]()
+By changing either user change determinants, user profile or goal measures, one's stage of change also gets modified. This examples are of persona 2 profile. Below are different scenarios where some information in context is changed that led to change in stage of change of the user. Original stage of change of the user is *Action.*
 
+
+[*modification: ”stress eating” is added in eating pattern in previous profile -> Preperation*](https://chat.openai.com/share/620bf8df-7111-4d56-bac4-ecd0920f5b6e)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_1.png)
+
+[*modification: current Goal Measurement values are downgraded by huge amount -> Preperation*](https://chat.openai.com/share/798f4021-5ac6-4241-bb0f-4c51a26dffc7)
+![task4_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_2.png)
+
+[*modification: values of other User Change Determinants change -> Preperation*](https://chat.openai.com/share/a36caa08-4441-40ac-b4d6-cd0e99527c07)
+![task4_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_3.png)
+
+[*modification: All above -> Contemplation*](https://chat.openai.com/share/a36caa08-4441-40ac-b4d6-cd0e99527c07)
+![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s2_1.png)
 
 
 
