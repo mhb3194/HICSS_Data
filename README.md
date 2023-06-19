@@ -91,31 +91,31 @@ Asking questionnaire for obtaining:
 
 ##### [User_Profiles Dataset](https://chat.openai.com/share/cb706526-1871-442e-9846-ce75e224a626):
 
-**Persona 1:**
+###### Persona 1:
 ![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_user_profile_1.png) 
 
-**Persona 2:**
+###### Persona 2:
 ![task1_health_profile_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_user_profile_1_p2.png)
 
 ##### [Goal and Goal_Observations Dataset](https://chat.openai.com/share/e43b4628-c33c-4386-a849-504181656695):
 
-**Persona 1:**
+###### Persona 1:
 ![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_goal_1.png)
 
 
-**Persona 2:**
+###### Persona 2:
 ![task1_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_goal_1_p2.png)
 
 
 
 ##### [Behaviour_determinants Dataset](https://chat.openai.com/share/ba9b7344-a53d-4fff-9121-2a61e8e879f8):
 
-**Persona 1:**
+###### Persona 1:
 ![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_1.png)
 ![task1_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_2.png)
 ![task1_behaviour_determinants_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_3.png)
 
-**Persona 2:**
+###### Persona 2:
 ![task1_behaviour_determinants_p1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_1_p2.png)
 ![task1_behaviour_determinants_p2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_2_p2.png)
 ![task1_behaviour_determinants_p3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task1_bd_3_p2.png)
@@ -159,29 +159,30 @@ Output Format:
 #### Examples
 
 ##### [Behaviour Goal Identification](https://chat.openai.com/share/e43b4628-c33c-4386-a849-504181656695)
-**Persona 1:**
+
+###### Persona 1:
 ![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_goal_1.png)
 
-**Persona 2:**
+###### Persona 2:
 ![task2_health_goal_identification_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_goal_1_p2.png)
  
 
 ##### [Goal Measures Identification](https://chat.openai.com/share/95c62959-aa09-4aba-b48c-275c12a94f92)
 
-**Persona 1:**
+###### Persona 1:
 ![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_goal_measure_1.png)
 
-**Persona 2:**
+###### Persona 2:
 ![task2_goal_measure_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_goal_measure_1_p2.png)
 
 
 
 ##### [Stage of Change Identification](https://chat.openai.com/share/4300e44f-24e1-4cfb-98f4-02bc8b2fff70)
 
-**Persona 1:**
+###### Persona 1:
 ![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_stagechange_1.png)
 
-**Persona 2:**
+###### Persona 2:
 ![task2_change_stage_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_stagechange_1_p2.png)
 
 
@@ -235,13 +236,13 @@ Based on answers of the questionnaires
 
 ##### [Behaviour_Determinants dataset](https://chat.openai.com/share/0e721d92-e6e5-49b5-94b0-d8db18cb9060)
 
-**Persona 1:**
+###### Persona 1:
 ![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1.png)
 ![task3_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_2.png)
 
 
 
-**Persona 2:**
+###### Persona 2:
 ![task3_behaviour_determinants_p1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1_p2.png)
 ![task3_behaviour_determinants_p2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1_p2.png)
 
@@ -289,7 +290,7 @@ Output Format:
 
 #### [Example](https://chat.openai.com/share/eaf0b536-2733-4476-8d3d-2f3af6a7046b)
 
-**Persona 1:**
+###### Persona 1:
 
 ![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_1.png)
 ![task4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_2.png) 
@@ -298,7 +299,7 @@ Output Format:
 ![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_5.png) 
 
 
-**Persona 2:**
+###### Persona 2:
 
 ![task4_1p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_1_p2.png)
 ![task4_2p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_2_p2.png) 
@@ -348,11 +349,11 @@ Output Format:
 
 #### [Example](https://chat.openai.com/share/3753d795-8967-49ef-a7d9-42b5181c375a)
 
-**Persona 1:**
+###### Persona 1:
 ![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_1.png)
 ![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_2.png)
 
-**Persona 2:**
+###### Persona 2:
 ![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_1_p2.png)
 ![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_2_p2.png)
 
@@ -416,7 +417,7 @@ Output Format:
 
 #### [Examples](https://chat.openai.com/share/5b9a4947-9844-43c2-8738-8d4bc315f18a)
 
-**Persona 1:**
+###### Persona 1:
 
 *User Feedback: This plan is very regorous for me. suggest a bit easy plan.*
 
@@ -436,7 +437,7 @@ Output Format:
 ![task6_s21](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s2_1.png)
 ![task6_s22](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s2_2.png)
 
-**Persona 2:**
+###### Persona 2:
 
 *User_Feedback: I can not have social gatherings more than once in a week.* 
 
@@ -463,7 +464,7 @@ Output Format:
 
 #### [Customization in Behaviour Change Plan](https://chat.openai.com/share/e729af43-6e5d-4924-97b0-073c0284d976)
 
-One modification has been made to the previously mentioned health profile in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are handicap. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. Additionally, the behavior change technique has been adjusted from graded task to social support, taking into account the person's condition.
+One modification has been made to the previously mentioned health profile of persona 1 in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are handicap. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. Additionally, the behavior change technique has been adjusted from graded task to social support, taking into account the person's condition.
 
 ![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_1.png)
 ![task4_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_2.png)
