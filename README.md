@@ -210,7 +210,7 @@ Output Format:
 
 
 
-## Process User Input
+## 3. Process User Input
 
 #### Objective:
 
@@ -268,7 +268,7 @@ Based on answers of the questionnaires
 ![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/determinant_structure22.jpg)
 
 
-## Plan Generation
+## 4. Plan Generation
 
 
 #### Objective:
@@ -328,7 +328,7 @@ Output Format:
 ![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan24.jpg)
 ![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan25.jpg)
 
-### Reminder and Nudge Generation
+### 5. Reminder and Nudge Generation
 
 
 #### Objective:
@@ -387,7 +387,7 @@ Output Format:
 
 
 
-### Improve Plan Based on Feedback
+### 6. Improve Plan Based on Feedback
 
 #### Objective:
 Throughout different stages of the behavior change support system, the generated plan may need to be modified based on various forms of feedback. This could be user feedback, gathered while the plan is being implemented throughout the week; feedback from behavior scientists for approval once the plan is generated; or goal assessment feedback, obtained at the end of each week. For this purpose, the existing plan is provided so that a new, modified plan can be generated based on the feedback received. Additionally, user-specific information from different databases is incorporated into the input, enabling the LLM to analyze it and generate a personalized plan based on the feedback. Plan_Entry dataset and Plans dataset is also modified based on new plan.
@@ -447,6 +447,7 @@ Output Format:
 ### Persona 1:
 
 ***User Feedback**: This plan is very regorous for me. suggest a bit easy plan..*
+**Adapted Plan**: 10 -> 5 min walk, 5 -> Stretching*
 
 ![task6_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/feedback11.jpg)
 ![task6_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/feedback12.jpg)
@@ -489,32 +490,57 @@ Output Format:
 
 ### [Stage of Change](https://chat.openai.com/share/1cf2a8bd-d7b4-4ac6-9f7c-88b4c5cf188c)
 
-By changing either user change determinants, user profile or goal measures, one's stage of change also gets modified. This examples are of persona 2 profile. Below are different scenarios where some information in context is changed that led to change in stage of change of the user. Original stage of change of the user is *Action.*
+### Persona 2: 
+
+### Change 1:
+***Change in Behaviour Detterminants**: perceived_susceptibility: low; perceived_severity: medium; perceived_benefits: low; perceived_barriers: Health issues, High workload; self_efficacy: low; cues_to_action: Reminder*  
+**Adapted Stage of Change**: Person to "Preperation" stage from "Action stage"* 
+
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/stage_of_change_adapt11.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/stage_of_change_adapt12.jpg)
+
+### Change 2:
+Person to "Preperation" stage from "Action stage"
+**Change in Goal Observations**: goal_measure_observation1: 8; goal_measure_observation2: 4; goal_measure_observation3: 70;*  
+**Adapted Stage of Change**: Person to "Preperation" stage from "Action stage"* 
+
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/stage_of_change_adapt21.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/stage_of_change_adapt22.jpg)
+
+
+### [Behaviour Plan](https://chat.openai.com/share/1805969b-5bda-4942-9469-4c7f6bd9b8aa)
+
+### Persona 1:
+
+***Change in User Health Profile**: health_conditions: handicap with one leg amputated* 
+***Adapted Plan**:Seating exercise and yoga, light stretching exercises instead of walking* 
+
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt11.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt12.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt13.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt14.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt15.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt16.jpg)
+
+***Change in Behaviour Detterminants**:  cues_to_action: Friends or family support, Financial incentives (e.g., insurance discounts)* 
+***Adapted Plan**: Share activity log with family/friend for accountability, Log daily activities & check for insurance discount eligibility insted of simple streching*
+
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt21.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt22.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt23.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt24.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt25.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan_adapt26.jpg)
 
 
 
-![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_1.jpg)
-![task4_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_2.jpg)
-![task4_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_3.jpg)
-![task4_s1_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_4.jpg)
+### [Nudge](https://chat.openai.com/share/966ea3e7-8a41-43c2-a45d-a7af4d7cb1c4)
 
-#### [Customization in Stage of Change]()
-One modification has been made to the previously mentioned health profile of persona 1 in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are handicap. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. 
+***Change in User Profile**:  personality_traits: introvert, overthinker, less openness* 
+***Adapted Nudge**: More soothing, encouraging, and empathetic, instead of energetic, upbeat, empowering, and informal*
 
-
-[*modification: ”stress eating” is added in eating pattern in previous profile -> Preperation*](https://chat.openai.com/share/620bf8df-7111-4d56-bac4-ecd0920f5b6e)
-![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_1.jpg)
-
-[*modification: current Goal Measurement values are downgraded by huge amount -> Preperation*](https://chat.openai.com/share/798f4021-5ac6-4241-bb0f-4c51a26dffc7)
-![task4_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_2.jpg)
-
-[*modification: values of other User Change Determinants change -> Preperation*](https://chat.openai.com/share/a36caa08-4441-40ac-b4d6-cd0e99527c07)
-![task4_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_3.jpg)
-
-[*modification: All above -> Contemplation*](https://chat.openai.com/share/a36caa08-4441-40ac-b4d6-cd0e99527c07)
-![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s2_1.jpg)
-
-
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/nudge_adapt11.jpg)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/nudge_adapt12.jpg)
 
 
 
