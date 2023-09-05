@@ -94,22 +94,22 @@ Asking questionnaire for obtaining:
 
 ###### Persona 1:
 ![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire11.png) 
-![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire12.png) 
+![task1_health_profile_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire12.png) 
 
 ###### Persona 2:
-![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire21.png) 
-![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire22.png) 
+![task2_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire21.png) 
+![task2_health_profile_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire22.png) 
 
 ##### [Goal and Goal_Observations Dataset](https://chat.openai.com/share/23e0acfc-d207-4e90-8415-f994faf57d38):
 
 ###### Persona 1:
 ![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire11.png)
-![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire12.png)
+![task1_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire12.png)
 
 
 ###### Persona 2:
-![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire21.png)
-![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire22.png)
+![task2_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire21.png)
+![task2_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire22.png)
 
 
 
