@@ -195,13 +195,16 @@ Output Format:
 
 
 
-##### [Stage of Change Identification](https://chat.openai.com/share/4300e44f-24e1-4cfb-98f4-02bc8b2fff70)
+##### [Stage of Change Identification](https://chat.openai.com/share/c772d082-dddc-4be6-9d41-698ae5598a76)
 
 ###### Persona 1:
-![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_stagechange_1.jpg)
+![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/stage_of_change11.jpg)
+![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/stage_of_change12.jpg)
+
 
 ###### Persona 2:
-![task2_change_stage_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_stagechange_1_p2.jpg)
+![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/stage_of_change21.jpg)
+![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/stage_of_change22.jpg)
 
 
 
@@ -255,21 +258,21 @@ Based on answers of the questionnaires
 ##### [Behaviour_Determinants dataset](https://chat.openai.com/share/0e721d92-e6e5-49b5-94b0-d8db18cb9060)
 
 ###### Persona 1:
-![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1.jpg)
-![task3_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_2.jpg)
+![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/determinant_structure11.jpg)
+![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/determinant_structure12.jpg)
 
 
 
 ###### Persona 2:
-![task3_behaviour_determinants_p1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1_p2.jpg)
-![task3_behaviour_determinants_p2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1_p2.jpg)
+![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/determinant_structure21.jpg)
+![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/determinant_structure22.jpg)
 
 
 ### Plan Generation
 
 
 #### Objective:
-Once all relevant datasets, namely Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants, are comprehensively populated, the next step involves creating a behavioral change plan to facilitate the achievement of set goals. For our purposes, we are adopting a standard timeline of one week for generating this behavioral change plan. The plan generation commences with the identification of appropriate behavioral change techniques(BCT), leveraging the CALO-RE Taxonomy for this purpose. There are three primary tasks assigned to the LLM in this plan generation phase. The first task is the selection of the three most suitable behavioral change techniques from the 40 identified in the CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf), this selection is primarily based on the individual's stage of behavioral change. This approach is taken in light of the emphasis placed on tailoring behavioral change techniques according to the stage of behavioral change in [this paper] (https://www.researchgate.net/publication/349007558_Tailoring_Persuasive_and_Behaviour_Change_Systems_Based_on_Stages_of_Change_and_Motivation). The second task involves generating a week-long behavioral change plan, structured around the identified techniques, and segmented into morning, afternoon, and evening periods based on context information to make the plan personalised. The final task involves formulating a generalized daily rule for each selected behavioral change technique. This rule will serve two main purposes: 1) prompt the user to log their performance, and 2) motivate the user to engage in behavioral change activities. In second and third task, form of implementation of intervention is also provided which can be nudge, reminder, awareness message or questionnare. 
+Once all relevant datasets, namely Users, Health_Profile, User_Goal, Goal_Observations, Behaviour_Determinants, are comprehensively populated, the next step involves creating a behavioral change plan to facilitate the achievement of set goals. For our purposes, we are adopting a standard timeline of one week for generating this behavioral change plan. The plan generation commences with the identification of appropriate behavioral change techniques(BCT), leveraging the CALO-RE Taxonomy for this purpose. There are three primary tasks assigned to the LLM in this plan generation phase. The first task is the selection of the three most suitable behavioral change techniques from the 40 identified in the CALO-RE Taxonomy] (https://www.dhi.ac.uk/san/waysofbeing/data/health-jones-michie-2011a.pdf), this selection is primarily based on the individual's stage of behavioral change. This approach is taken in light of the emphasis placed on tailoring behavioral change techniques according to the stage of behavioral change in [this paper] (https://www.researchgate.net/publication/349007558_Tailoring_Persuasive_and_Behaviour_Change_Systems_Based_on_Stages_of_Change_and_Motivation). The second task involves generating a week-long behavioral change plan, structured around the identified techniques, and segmented into morning, afternoon, and evening periods based on context information to make the plan personalised. 
 Once these plan is generated, its each entry is done in this Plan_Entry database. Also, entire plan is stored in the Plans dataset. Also, selected BCT are stored in plans dataset.  
 
 #### Context:
