@@ -93,44 +93,44 @@ Asking questionnaire for obtaining:
 ##### [User_Profiles Dataset]([https://chat.openai.com/share/cb706526-1871-442e-9846-ce75e224a626](https://chat.openai.com/share/821ded02-3d93-4204-b2a2-bd6f17f7b4a0)):
 
 ###### Persona 1:
-![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire11.png) 
-![task1_health_profile_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire12.png) 
+![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire11.jpg) 
+![task1_health_profile_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire12.jpg) 
 
 ###### Persona 2:
-![task2_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire21.png) 
-![task2_health_profile_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire22.png) 
+![task2_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire21.jpg) 
+![task2_health_profile_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/profile_questionnaire22.jpg) 
 
 ##### [Goal and Goal_Observations Dataset](https://chat.openai.com/share/23e0acfc-d207-4e90-8415-f994faf57d38):
 
 ###### Persona 1:
-![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire11.png)
-![task1_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire12.png)
+![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire11.jpg)
+![task1_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire12.jpg)
 
 
 ###### Persona 2:
-![task2_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire21.png)
-![task2_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire22.png)
+![task2_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire21.jpg)
+![task2_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure_questionnaire22.jpg)
 
 
 
 ##### [Behaviour_determinants Dataset](https://chat.openai.com/share/66e3dced-2129-4a03-aa57-f6b525aff8e5):
 
 ###### Persona 1:
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire11.png)
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire12.png)
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire13.png)
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire14.png)
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire15.png)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire11.jpg)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire12.jpg)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire13.jpg)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire14.jpg)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire15.jpg)
 
 
 
 ###### Persona 2:
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire21.png)
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire22.png)
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire23.png)
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire24.png)
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire25.png)
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire26.png)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire21.jpg)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire22.jpg)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire23.jpg)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire24.jpg)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire25.jpg)
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/BD_questionnaire26.jpg)
 
 ### Request for Recommendation / Classification
 
@@ -173,35 +173,35 @@ Output Format:
 ##### [Behaviour Goal Identification](https://chat.openai.com/share/b98cdfa4-22a4-4c5e-a105-b7a635044fd5)
 
 ###### Persona 1:
-![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection11.png)
-![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection12.png)
+![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection11.jpg)
+![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection12.jpg)
 
 
 ###### Persona 2:
-![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection21.png)
-![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection21.png)
+![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection21.jpg)
+![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection21.jpg)
  
 
 ##### [Goal Measures Identification](https://chat.openai.com/share/7d06e712-48e4-4a94-9165-be1eb07174c0)
 
 ###### Persona 1:
-![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure11.png)
-![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure12.png)
+![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure11.jpg)
+![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure12.jpg)
 
 
 ###### Persona 2:
-![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure21.png)
-![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure22.png)
+![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure21.jpg)
+![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_measure22.jpg)
 
 
 
 ##### [Stage of Change Identification](https://chat.openai.com/share/4300e44f-24e1-4cfb-98f4-02bc8b2fff70)
 
 ###### Persona 1:
-![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_stagechange_1.png)
+![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_stagechange_1.jpg)
 
 ###### Persona 2:
-![task2_change_stage_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_stagechange_1_p2.png)
+![task2_change_stage_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_stagechange_1_p2.jpg)
 
 
 
@@ -255,14 +255,14 @@ Based on answers of the questionnaires
 ##### [Behaviour_Determinants dataset](https://chat.openai.com/share/0e721d92-e6e5-49b5-94b0-d8db18cb9060)
 
 ###### Persona 1:
-![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1.png)
-![task3_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_2.png)
+![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1.jpg)
+![task3_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_2.jpg)
 
 
 
 ###### Persona 2:
-![task3_behaviour_determinants_p1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1_p2.png)
-![task3_behaviour_determinants_p2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1_p2.png)
+![task3_behaviour_determinants_p1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1_p2.jpg)
+![task3_behaviour_determinants_p2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task3_bd_1_p2.jpg)
 
 
 ### Plan Generation
@@ -310,20 +310,20 @@ Output Format:
 
 ###### Persona 1:
 
-![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_1.png)
-![task4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_2.png) 
-![task4_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_3.png)
-![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_4.png) 
-![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_5.png) 
+![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_1.jpg)
+![task4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_2.jpg) 
+![task4_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_3.jpg)
+![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_4.jpg) 
+![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_5.jpg) 
 
 
 ###### Persona 2:
 
-![task4_1p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_1_p2.png)
-![task4_2p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_2_p2.png) 
-![task4_3p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_3_p2.png)
-![task4_4p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_4_p2.png) 
-![task4_5p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_5_p2.png) 
+![task4_1p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_1_p2.jpg)
+![task4_2p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_2_p2.jpg) 
+![task4_3p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_3_p2.jpg)
+![task4_4p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_4_p2.jpg) 
+![task4_5p](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_5_p2.jpg) 
 
 ### Reminder and Nudge Generation
 
@@ -368,12 +368,12 @@ Output Format:
 #### [Example](https://chat.openai.com/share/3753d795-8967-49ef-a7d9-42b5181c375a)
 
 ###### Persona 1:
-![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_1.png)
-![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_2.png)
+![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_1.jpg)
+![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_2.jpg)
 
 ###### Persona 2:
-![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_1_p2.png)
-![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_2_p2.png)
+![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_1_p2.jpg)
+![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task5_2_p2.jpg)
 
 
 
@@ -439,42 +439,42 @@ Output Format:
 
 ***User Feedback**: This plan is very regorous for me. suggest a bit easy plan.*
 
-![task6_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_1.png)
-![task6_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_2.png)
-![task6_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_3.png)
+![task6_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_1.jpg)
+![task6_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_2.jpg)
+![task6_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_3.jpg)
 
 
 ***Behaviour_Scientist_Feedback**: Plan is not increamental. gradually increase difficulty.*  
 
-![task6_s11](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_1.png)
-![task6_s12](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_2.png)
-![task6_s13](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_3.png)
+![task6_s11](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_1.jpg)
+![task6_s12](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_2.jpg)
+![task6_s13](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s1_3.jpg)
 
 ***System_Generated_Feedback**: user is not able to follow eating healthy plan. they are not able to even walk for 10 minutes a day.*  
 
-![task6_s21](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s2_1.png)
-![task6_s22](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s2_2.png)
+![task6_s21](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s2_1.jpg)
+![task6_s22](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s2_2.jpg)
 
 ###### Persona 2:
 
 ***User_Feedback**: I can not have social gatherings more than once in a week.* 
 
-![task6_s31](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_1.png)
-![task6_s32](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_2.png)
-![task6_s33](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_3.png)
+![task6_s31](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_1.jpg)
+![task6_s32](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_2.jpg)
+![task6_s33](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s3_3.jpg)
 
 ***Behaviour_Scientist_Feedback**: some specificity required in exercises for deep breathing or knee exercise.*	
 ***User_Feedback**:I can not have social gatherings more than once in a week.*
 
-![task6_s41](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_1.png)
-![task6_s42](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_2.png)
-![task6_s43](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_3.png)
+![task6_s41](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_1.jpg)
+![task6_s42](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_2.jpg)
+![task6_s43](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s4_3.jpg)
 
 ***System_Generated_Feedback**: User is able to follow meditation plan and breathing exercises. however yoga classes are not attended by user. Also uder could not follow calling friends and spendint time with family tasks.*
 
-![task6_s51](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_1.png)
-![task6_s52](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_2.png)
-![task6_s53](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_3.png)
+![task6_s51](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_1.jpg)
+![task6_s52](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_2.jpg)
+![task6_s53](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task6_s5_3.jpg)
 
 
 
@@ -484,26 +484,26 @@ Output Format:
 
 One modification has been made to the previously mentioned health profile of persona 1 in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are handicap. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. 
 
-![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_1.png)
-![task4_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_2.png)
-![task4_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_3.png)
-![task4_s1_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_4.png)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_1.jpg)
+![task4_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_2.jpg)
+![task4_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_3.jpg)
+![task4_s1_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task4_s1_4.jpg)
 
 #### [Customization in Stage of Change]()
 By changing either user change determinants, user profile or goal measures, one's stage of change also gets modified. This examples are of persona 2 profile. Below are different scenarios where some information in context is changed that led to change in stage of change of the user. Original stage of change of the user is *Action.*
 
 
 [*modification: ”stress eating” is added in eating pattern in previous profile -> Preperation*](https://chat.openai.com/share/620bf8df-7111-4d56-bac4-ecd0920f5b6e)
-![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_1.png)
+![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_1.jpg)
 
 [*modification: current Goal Measurement values are downgraded by huge amount -> Preperation*](https://chat.openai.com/share/798f4021-5ac6-4241-bb0f-4c51a26dffc7)
-![task4_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_2.png)
+![task4_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_2.jpg)
 
 [*modification: values of other User Change Determinants change -> Preperation*](https://chat.openai.com/share/a36caa08-4441-40ac-b4d6-cd0e99527c07)
-![task4_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_3.png)
+![task4_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s1_3.jpg)
 
 [*modification: All above -> Contemplation*](https://chat.openai.com/share/a36caa08-4441-40ac-b4d6-cd0e99527c07)
-![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s2_1.png)
+![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v2/task2_s2_1.jpg)
 
 
 
@@ -557,18 +557,18 @@ Asking questionnaire for obtaining:
 #### Examples
   
 ##### User Dataset:
-![task1_user_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_user_1.png)  
+![task1_user_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_user_1.jpg)  
 
 ##### Health_Profile Dataset:
-![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_health_profile_1.png) 
+![task1_health_profile_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_health_profile_1.jpg) 
 
 ##### Goal and Goal_Observations Dataset:
-![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_goal_1.png)
-![task1_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_goal_2.png)
+![task1_goal_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_goal_1.jpg)
+![task1_goal_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_goal_2.jpg)
 
 ##### Behaviour_determinants Dataset:
-![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_behaviour_determinants_1.png)
-![task1_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_behaviour_determinants_2.png) 
+![task1_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_behaviour_determinants_1.jpg)
+![task1_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task1_behaviour_determinants_2.jpg) 
 
 ### Request for Recommendation / Classification
 
@@ -610,16 +610,16 @@ Output Format:
 
 ##### Behaviour Goal Identification
 
-![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_health_goal_identification_1.png)
+![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_health_goal_identification_1.jpg)
  
 
 ##### Goal Measures Identification
-![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_goal_measure_1.png)
+![task2_goal_measure_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_goal_measure_1.jpg)
 
 
 ##### Stage of Change Identification
-![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_change_stage_1.png)
-![task2_change_stage_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_change_stage_2.png)
+![task2_change_stage_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_change_stage_1.jpg)
+![task2_change_stage_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task2_change_stage_2.jpg)
 
 
 
@@ -671,8 +671,8 @@ Based on answers of the questionnaires
 
 ##### Behaviour_Determinants dataset
 
-![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task3_behaviour_determinants_1.png)
-![task3_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task3_behaviour_determinants_2.png)
+![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task3_behaviour_determinants_1.jpg)
+![task3_behaviour_determinants_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task3_behaviour_determinants_2.jpg)
 
 
 ### Plan Generation
@@ -722,13 +722,13 @@ Output Format:
 
 ##### Query:
 
-![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_1.png)
-![task4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_2.png) 
+![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_1.jpg)
+![task4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_2.jpg) 
 
 ##### Response:
-![task4_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_3.png)
-![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_4.png) 
-![task4_5](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_5.png)
+![task4_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_3.jpg)
+![task4_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_4.jpg) 
+![task4_5](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_5.jpg)
 
 
 
@@ -777,11 +777,11 @@ Output Format:
 #### Example
 
 ##### Query:
-![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task5_1.png) 
-![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task5_2.png)
+![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task5_1.jpg) 
+![task5_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task5_2.jpg)
 
 ##### Answer:
-![task5_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task5_3.png) 
+![task5_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task5_3.jpg) 
 
 
 
@@ -853,27 +853,27 @@ Output Format:
 
 **Example1**
 
-![task6_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_1.png) 
-![task6_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_2.png)
-![task6_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_3.png) 
+![task6_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_1.jpg) 
+![task6_s1_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_2.jpg)
+![task6_s1_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_3.jpg) 
 
 
-![task6_s1_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_4.png) 
+![task6_s1_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s1_4.jpg) 
 
 **Example2**
 
-![task6_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s2_1.png)
-![task6_s2_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s2_2.png) 
+![task6_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s2_1.jpg)
+![task6_s2_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s2_2.jpg) 
 
 ##### Behaviour Scientist Feedback
 
-![task6_s3_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s3_1.png) 
-![task6_s3_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s3_2.png)
+![task6_s3_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s3_1.jpg) 
+![task6_s3_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s3_2.jpg)
 
 ##### Goal Assesment Feedback
 
-![task6_s4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s4_1.png) 
-![task6_s4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s4_2.png) 
+![task6_s4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s4_1.jpg) 
+![task6_s4_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task6_s4_2.jpg) 
 
 
 
@@ -884,10 +884,10 @@ Output Format:
 
 One modification has been made to the previously mentioned health profile in this example. Specifically, the individual's health condition now includes the fact that one leg has been amputated and they are unable to walk. As a result, the recommendations for physical activity have shifted from walking to exercises suitable for wheelchair users. Additionally, the behavior change technique has been adjusted from graded task to social support, taking into account the person's condition.
 
-![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_1.png)
-![task4_s2_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_2.png)
-![task4_s2_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_3.png)
-![task4_s2_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_4.png)
+![task4_s2_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_1.jpg)
+![task4_s2_2](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_2.jpg)
+![task4_s2_3](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_3.jpg)
+![task4_s2_4](https://github.com/mhb3194/HICSS_Data/blob/main/images_LLM/task4_s2_4.jpg)
 
 #### Customization based on state of change
 
@@ -902,26 +902,26 @@ Here we have described a simulated persona of one Indian Female named Sita.
 
 Let us start system walk through from the time Sita registers into our ASA-HBC. Once registered, Sita is requested to provide access to any personalized self-written data. Sita provides access to Linkedin. Now, orchestrator generates message for behaviour assessment sub-system to use this data to generate profile information of Sita. Behaviour assessment sub-system extracts profile description from linkedin, and tasks LLM to extract structured profile information based on description. Figure shows query to LLM, output generated by LLM. This information is then stored in Users file in Datastore.
 
-![Profile Generation from Seed Data](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/profile_generation_1.png)
+![Profile Generation from Seed Data](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/profile_generation_1.jpg)
 
 ### Profile Generation Questionnare
 
 Next, we can see that some profile information like name, age, gender are not generated. Also health and life style information is not generated. Thus , next orchestrator generates message for behaviour assessment subsystem to generate query for missing health profile information. Figure 4 shows query to LLMs and response questionnaire provided by LLMs. 
 
-![Profile Generation Questionnare](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Profile_generation_2.png)
+![Profile Generation Questionnare](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Profile_generation_2.jpg)
 
 
 ### User Profile Data
 
 Below is the profile information provided by user and was structured by LLM to store in Users in datastore. 
 
-![User Profile Data](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/user_profile_1.png) 
+![User Profile Data](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/user_profile_1.jpg) 
 
 ### User Goal Options Creation
 
  Now, based on all the profile information in data store, LLMs are tasked to determine possible goals for user. Figure 5 shows query and output of LLM for this task. 
 
-![User Goal Options](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_selection_1.png) 
+![User Goal Options](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_selection_1.jpg) 
 
 ### User  selected goal
 
@@ -935,12 +935,12 @@ User Selects below goal:
 
 #### Query
 
-![determinant_query](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_1_new_p1.png) 
+![determinant_query](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_1_new_p1.jpg) 
 
 #### Answer
 
-![determinant_ans_1](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_1_new_p2.png) 
-![determinant_ans_2](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_1_new_p3.png) 
+![determinant_ans_1](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_1_new_p2.jpg) 
+![determinant_ans_2](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_1_new_p3.jpg) 
 
 #### Answer of the questionnaire from user
 
@@ -951,55 +951,55 @@ User Selects below goal:
 
 #### Query
 
-![determinant_extraction_query](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_2_new.png)
+![determinant_extraction_query](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_2_new.jpg)
 
 
 #### Answer
 
-![determinant_extraction_answer](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_3_new.png)
+![determinant_extraction_answer](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/behaviour_determinants_3_new.jpg)
 
 ### Goal Measurement
 
-![goal_measurement](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_measurement_1.png)
+![goal_measurement](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_measurement_1.jpg)
 
 ### Goal Targets given by user
 
-![goal_targets](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_targets.png)
+![goal_targets](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_targets.jpg)
 
 ### Intervention Plan Generation
 
 #### Query
 
-![intervention_query](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Plan_generation_1.png)
+![intervention_query](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Plan_generation_1.jpg)
 
 #### Answer
 
-![intervention_ans](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Plan_generation_2.png)
-![intervention_ans2](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Plan_generation_3.png)
-![intervention_ans3](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/plan_generation_4.png)
+![intervention_ans](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Plan_generation_2.jpg)
+![intervention_ans2](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/Plan_generation_3.jpg)
+![intervention_ans3](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/plan_generation_4.jpg)
 
 ### Intervention Execution
 
 #### Query
 
-![intervention_exq1](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/interventions_1.png)
-![intervention_exq2](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/interventions_2.png)
+![intervention_exq1](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/interventions_1.jpg)
+![intervention_exq2](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/interventions_2.jpg)
 
 
 #### Answer
 
-![intervention_exa](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/intervention_3.png)
+![intervention_exa](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/intervention_3.jpg)
 
 
 ### Goal Assesment
 
 #### Query
 
-![](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_assesment_1.png)
+![](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_assesment_1.jpg)
 
 ### Answer
 
-![](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_assesment_2.png)
+![](https://github.com/mhb3194/HICSS_Data/blob/main/LLM_Tasks/goal_assesment_2.jpg)
 
 
 
