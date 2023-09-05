@@ -179,7 +179,7 @@ Output Format:
 
 ### Persona 2:
 ![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection21.jpg)
-![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection21.jpg)
+![task2_health_goal_identification_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/goal_selection22.jpg)
  
 
 ### 2. [Goal Measures Identification](https://chat.openai.com/share/7d06e712-48e4-4a94-9165-be1eb07174c0)
