@@ -4,15 +4,25 @@
 1. [General Instruction](#generalinst)
 2. [LLM Requests](#llmreq)
     1. [Generate Assesment Questionnaire](#gaq)
-       1. [User_Profiles Dataset](#updq)
-       2. [Goal and Goal_Observations Dataset](#ggodq)
-       3. [Behaviour_determinants Dataset](#bddq)
-    2. [Request for Recommendation / Classification](#rrc)
-       1. [Behaviour Goal Identification](#bgi)
-       2. [Goal Measure Identification](#gmi)
+       1. [User_Profiles Dataset Example](#updq)
+       2. [Goal and Goal_Observations Dataset Example](#ggodq)
+       3. [Behaviour_determinants Dataset Example](#bddq)
+    2. [Request for Recommendation / Classification Example](#rrc)
+       1. [Behaviour Goal Identification Example](#bgi)
+       2. [Goal Measure Identification Example](#gmi)
        3. [Stage of Change Identification](#soci)
-    3. 
-3. [Another paragraph](#paragraph2)
+    3. [Process User Input](#pui)
+       1. [Behaviour Determinants Dataset Example](#bdd)
+    4. [Plan Generation](#pg)
+       1. [Plan Generation Example](#pge)
+    5. [Nudge, Reminder, Feedback Generation](#ng)
+       1. [Nudge Generation Example](#nge)
+    6. [Plan Feedback](#pf)
+       1. [Plan Feedback Example](#pfe)
+3. [Adaptation and Feedback](#af)
+    1. [Stage of Change Example](#soca)
+    2. [Plan Example](#pa)
+    3. [Nudge Example](#na)
 
 
 
@@ -223,7 +233,7 @@ Output Format:
 
 
 
-## 3. Process User Input
+## 3. Process User Input <a name="pui"></a>
 
 #### Objective:
 
@@ -268,7 +278,7 @@ Based on answers of the questionnaires
 
 ### Examples
 
-### 1. [Behaviour_Determinants dataset](https://chat.openai.com/share/0e721d92-e6e5-49b5-94b0-d8db18cb9060)
+### 1. [Behaviour_Determinants dataset](https://chat.openai.com/share/0e721d92-e6e5-49b5-94b0-d8db18cb9060) <a name="bdd"></a>
 
 ###### Persona 1:
 ![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/determinant_structure11.jpg)
@@ -281,7 +291,7 @@ Based on answers of the questionnaires
 ![task3_behaviour_determinants_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/determinant_structure22.jpg)
 
 
-## 4. Plan Generation
+## 4. Plan Generation <a name="pg"></a>
 
 
 #### Objective:
@@ -322,7 +332,7 @@ Output Format:
 #### Application Scenarios
 + initial plan generation based on initial dataset values
 
-### [Example](https://chat.openai.com/share/3020c922-8da2-41d7-a553-93a53d485cb8)
+### [Example](https://chat.openai.com/share/3020c922-8da2-41d7-a553-93a53d485cb8) <a name="pge"></a>
 
 ### Persona 1:
 
@@ -341,7 +351,7 @@ Output Format:
 ![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan24.jpg)
 ![task4_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/plan25.jpg)
 
-### 5. Reminder and Nudge Generation
+### 5. Reminder and Nudge Generation <a name="ng"></a>
 
 
 #### Objective:
@@ -381,7 +391,7 @@ Output Format:
 + Executing text generation intervention plans based on plan_entry as per requirement
 
 
-### [Example](https://chat.openai.com/share/fff0a1bf-fff8-45a8-86c5-5827ab744b4d)
+### [Example](https://chat.openai.com/share/fff0a1bf-fff8-45a8-86c5-5827ab744b4d) <a name="nge"></a>
 
 ### Persona 1:
 ![task5_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/nudge11.jpg)
@@ -400,7 +410,7 @@ Output Format:
 
 
 
-### 6. Improve Plan Based on Feedback
+### 6. Improve Plan Based on Feedback <a name="pf"></a>
 
 #### Objective:
 Throughout different stages of the behavior change support system, the generated plan may need to be modified based on various forms of feedback. This could be user feedback, gathered while the plan is being implemented throughout the week; feedback from behavior scientists for approval once the plan is generated; or goal assessment feedback, obtained at the end of each week. For this purpose, the existing plan is provided so that a new, modified plan can be generated based on the feedback received. Additionally, user-specific information from different databases is incorporated into the input, enabling the LLM to analyze it and generate a personalized plan based on the feedback. Plan_Entry dataset and Plans dataset is also modified based on new plan.
@@ -455,7 +465,7 @@ Output Format:
  + Behaviour Scientist Feedback
  + Goal Assesment Feedback
 
-### [Examples](https://chat.openai.com/share/2d368b82-7610-46a7-8605-4e4ae1305be0)
+### [Examples](https://chat.openai.com/share/2d368b82-7610-46a7-8605-4e4ae1305be0)<a name="pfe"></a>
 
 ### Persona 1:
 
@@ -499,9 +509,9 @@ Output Format:
 ![task6_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v3/feedback47.jpg)
 
 
-## Adaptability and Personalization
+## Adaptability and Personalization <a name="af"></a>
 
-### [Stage of Change](https://chat.openai.com/share/1cf2a8bd-d7b4-4ac6-9f7c-88b4c5cf188c)
+### [Stage of Change](https://chat.openai.com/share/1cf2a8bd-d7b4-4ac6-9f7c-88b4c5cf188c) <a name="soca"></a>
 
 ### Persona 2: 
 
@@ -521,7 +531,7 @@ Person to "Preperation" stage from "Action stage"
 ![task4_s1_1](https://github.com/mhb3194/HICSS_Data/blob/main/images_v4/stage_of_change_adapt22.jpg)
 
 
-### [Behaviour Plan](https://chat.openai.com/share/1805969b-5bda-4942-9469-4c7f6bd9b8aa)
+### [Behaviour Plan](https://chat.openai.com/share/1805969b-5bda-4942-9469-4c7f6bd9b8aa) <a name="pa"></a>
 
 ### Persona 1:
 
@@ -547,7 +557,7 @@ Person to "Preperation" stage from "Action stage"
 
 
 
-### [Nudge](https://chat.openai.com/share/966ea3e7-8a41-43c2-a45d-a7af4d7cb1c4)
+### [Nudge](https://chat.openai.com/share/966ea3e7-8a41-43c2-a45d-a7af4d7cb1c4) <a name="na"></a>
 
 ***Change in User Profile**:  personality_traits: introvert, overthinker, less openness* 
 ***Adapted Nudge**: More soothing, encouraging, and empathetic, instead of energetic, upbeat, empowering, and informal*
